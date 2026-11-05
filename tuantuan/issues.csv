@@ -1,0 +1,5 @@
+﻿severity,code,day,member,task,path,message
+error,REPORT_SCHEDULE,2,B,,daily-scrum/Day02-B.md,day 与文件名不匹配
+error,REPORT_SCHEDULE,3,B,,daily-scrum/Day03-B.md,day 与文件名不匹配
+error,INVALID_PLAN,,,,,新增任务须说明 scope_reason
+warning,PLOT_UNVERIFIED_PLAN,,,,,计划未通过严格核验，但任务编号、负责人、初估和纳入日可读；按原值绘图，基线待复核。

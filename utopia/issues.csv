@@ -1,0 +1,4 @@
+﻿severity,code,day,member,task,path,message
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+error,INVALID_REPORT,2,A,,燃尽图/daily-scrum/Day02-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,2,B,,燃尽图/daily-scrum/Day02-B.md,B01: 提供证据时必须说明验证方式

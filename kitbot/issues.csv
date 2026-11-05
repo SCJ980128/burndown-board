@@ -1,0 +1,40 @@
+﻿severity,code,day,member,task,path,message
+error,REPORT_SCHEDULE,3,zhengge,,daily-scrum/Day03-zhengge.md,day 与文件名不匹配
+warning,UNEXPECTED_FILE,,,,daily-scrum/_TEMPLATE.md,文件命名或成员代号不符合配置；不参与统计。
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+info,SCOPE_ADDED,1,yifan,S01-D01-class-yifan,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,weihua,S01-D01-class-weihua,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,fangzhi,S01-D01-class-fangzhi,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,zhengge,S01-D01-class-zhengge,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,yifan,S01-D06-class-yifan,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,weihua,S01-D06-class-weihua,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,fangzhi,S01-D06-class-fangzhi,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+info,SCOPE_ADDED,1,zhengge,S01-D06-class-zhengge,,新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。
+error,INVALID_REPORT,1,zhengge,,daily-scrum/Day01-zhengge.md,S01-D01-inventory: 证据文件不存在、为空或不是普通文件：docs/evidence/S01/D01/kit-inventory.md
+warning,BLOCKED,1,yifan,S01-D01-adr,daily-scrum/Day01-yifan.md,待实物确认项（C1～C4、相机、小屏等）要等 zhengge、weihua 整机盘点和台架（车已到，还在调试）；ADR 第 8 节问题 1（租约到期只停输出还是锁上）需要 fangzhi 在 11-03 D02 开始前确认
+warning,BLOCKED,1,yifan,S01-D03-panel-list,daily-scrum/Day01-yifan.md,依赖 fangzhi 的 S01-D02-store；面板会话接口要等健康记录接口二选一（docs/impl/notes/需要确认的事-1102.md 第 14 条），11-04 之前要定
+warning,BLOCKED,1,yifan,S01-D04-panel-edit,daily-scrum/Day01-yifan.md,依赖 S01-D03-panel-list，同样等健康记录接口二选一
+warning,BLOCKED,2,weihua,S01-D02-pi-bridge,daily-scrum/Day02-weihua.md,状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，新版只过 Windows 单测，需本人 D03 重新部署后补 pi-bridge.log，无他人依赖
+error,INVALID_REPORT,2,zhengge,,daily-scrum/Day02-zhengge.md,S01-D01-inventory: 证据文件不存在、为空或不是普通文件：docs/evidence/S01/D01/kit-inventory.md
+warning,BLOCKED,2,yifan,S01-D01-adr,daily-scrum/Day02-yifan.md,待实物确认项（C1～C4、相机、小屏等）要等 zhengge、weihua 整机盘点和台架（车已到，还在调试）；ADR 第 8 节问题 1（租约到期只停输出还是锁上）需要 fangzhi 在 11-03 D02 开始前确认
+warning,BLOCKED,2,yifan,S01-D03-panel-list,daily-scrum/Day02-yifan.md,依赖 fangzhi 的 S01-D02-store；面板会话接口要等健康记录接口二选一（docs/impl/notes/需要确认的事-1102.md 第 14 条），11-04 之前要定
+warning,BLOCKED,2,yifan,S01-D04-panel-edit,daily-scrum/Day02-yifan.md,依赖 S01-D03-panel-list，同样等健康记录接口二选一
+warning,BLOCKED,2,yifan,S01-D08-interface-defects,daily-scrum/Day02-yifan.md,电脑上已回归通过（SIMULATED）；真车上的正确性要等车上换成新版整机程序后复测（需要确认的事-1102 第 2 条，weihua、zhengge）；放音移出设备主循环等 weihua 定（第 1 条第 3 点）
+warning,BLOCKED,3,weihua,S01-D02-pi-bridge,daily-scrum/Day03-weihua.md,状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，需本人重新部署后补 pi-bridge.log，无他人依赖
+warning,BLOCKED,3,weihua,S01-D03-detect-proto,daily-scrum/Day03-weihua.md,FPS/帧龄未测：15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通（地址略），需本人下次上真车补测；另需复跑一次确认不框人脸（均为本人 D04 前完成，无他人依赖）
+info,REMAINING_INCREASE,3,fangzhi,S01-D01-spec,daily-scrum/Day03-fangzhi.md,0h → 0.5h：Day02的done缺少约定规格文件，今日补齐DRAFT及评审记录后改回doing；剩余0.5h为本人审阅的暂估，AI起草时间不计本人投入。
+warning,BLOCKED,3,fangzhi,S01-D01-spec,daily-scrum/Day03-fangzhi.md,需fangzhi在11-05 09:30站会前核对规格并确认验收；AI技术审查不替代本人验证。
+warning,BLOCKED,3,fangzhi,S01-D01-class-fangzhi,daily-scrum/Day03-fangzhi.md,11-02到课与课堂记录仍待fangzhi在下次站会核对，沿用Day02的todo/剩余3h，不把历史课程时间补计今天。
+info,REMAINING_INCREASE,3,fangzhi,S01-D03-ws-ingest,daily-scrum/Day03-fangzhi.md,3h → 4h：本人确认今日总投入2h，统一记入D03；剩余由计划3h上调为暂估4h：适配/接线约2h、结构及中断测试约1h、协同冻结约1h。未根据已投入简单扣减；实际测试后更新估计。
+warning,BLOCKED,3,fangzhi,S01-D03-ws-ingest,daily-scrum/Day03-fangzhi.md,尚缺WS适配/接线、结构与异常路径测试及团队冻结；需fangzhi推进，并与yifan/weihua在11-05 09:30站会前核对事件映射、接口和F04路线。
+info,PARTIAL_SUBMISSION,,zhengge,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,BLOCKED,3,yifan,S01-D01-adr,daily-scrum/Day03-yifan.md,ADR 里要在真车上核对的 12 项（电机编号和转向、相机、小屏等）还没核：要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）、zhengge 把整车盘点记录推上来（第 6 条），以及 11-05 的架空测试（车垫高、轮子离地试电机和停止）；ADR 里问组员的问题 1、4 yifan 11-04 已先定（第 3、8 条），fangzhi、weihua 可改
+warning,BLOCKED,3,yifan,S01-D04-panel-edit,daily-scrum/Day03-yifan.md,确认、纠正、删除要用的后端接口，组里有两套草稿、只能做一套；yifan 11-04 先定用 weihua 的 /api/observations（docs/impl/notes/需要确认的事-1102.md 第 14 条），fangzhi、weihua 有不同意见请 11-05 中午 D04 开工以前回
+warning,BLOCKED,3,yifan,S01-D05-e2e-2,daily-scrum/Day03-yifan.md,要先做完 fangzhi 的第一轮联调（S01-D04-e2e-1）；在真车上测的部分，要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge，最好在 11-05 架空测试以前）
+warning,BLOCKED,3,yifan,S01-D08-interface-defects,daily-scrum/Day03-yifan.md,电脑上用模拟的车测过了（SIMULATED）；真车上还要再测一遍“按停止 → 车停下 → 回确认”，要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）
+warning,BLOCKED,4,weihua,S01-D02-pi-bridge,daily-scrum/Day04-weihua.md,状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，需本人重新部署后补 pi-bridge.log，无他人依赖
+warning,BLOCKED,4,weihua,S01-D03-detect-proto,daily-scrum/Day04-weihua.md,FPS/帧龄未测：D03 当天 15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通（地址略），需本人下次上真车补测；另需复跑一次确认不框人脸（均为本人 D05 前完成，无他人依赖）
+warning,BLOCKED,4,weihua,S01-D04-detect-events,daily-scrum/Day04-weihua.md,真车 FPS/帧龄、误检/漏检样本未测；后端完整 pytest 与 test_device_events_api.py 未跑（本机没有 .venv，依赖装不上）；需本人下次上真车并装后端环境，D05 前完成，无他人依赖
+info,PARTIAL_SUBMISSION,,fangzhi,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,PARTIAL_SUBMISSION,,zhengge,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,PARTIAL_SUBMISSION,,yifan,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。

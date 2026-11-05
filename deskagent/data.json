@@ -1,0 +1,2209 @@
+{
+  "id": "deskagent",
+  "name": "DeskAgent",
+  "sprint_id": "deskagent-alpha-beta",
+  "source": {
+    "type": "gitee",
+    "repo": "czl7642/modern-software-engineering",
+    "branch": "project",
+    "transport": "https"
+  },
+  "members": {
+    "A": "王昊",
+    "B": "陈智良"
+  },
+  "schema_version": 1,
+  "as_of": "2026-11-05",
+  "snapshot": "f80b7677ec3cdc43d40847430a2f5f78b4c56269",
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UNPINNED_PLAN",
+      "day": null,
+      "member": "",
+      "task": "",
+      "path": "",
+      "message": "未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。"
+    }
+  ],
+  "series": [
+    {
+      "day": 0,
+      "date": null,
+      "ideal_remaining": 81,
+      "actual_remaining": 81,
+      "actual_spent": 0.0,
+      "daily_spent": 0.0,
+      "status": "baseline",
+      "missing_members": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "ideal_remaining": 72.9,
+      "actual_remaining": 75.0,
+      "actual_spent": 6.0,
+      "daily_spent": 6.0,
+      "status": "complete",
+      "missing_members": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "ideal_remaining": 64.8,
+      "actual_remaining": 69.0,
+      "actual_spent": 10.0,
+      "daily_spent": 4.0,
+      "status": "complete",
+      "missing_members": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "ideal_remaining": 56.7,
+      "actual_remaining": 61.0,
+      "actual_spent": 14.0,
+      "daily_spent": 4.0,
+      "status": "complete",
+      "missing_members": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "ideal_remaining": 56.7,
+      "actual_remaining": 61.0,
+      "actual_spent": 14.0,
+      "daily_spent": null,
+      "status": "no_submission",
+      "missing_members": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-08",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-09",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 14,
+      "date": "2026-11-15",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 15,
+      "date": "2026-11-16",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    }
+  ],
+  "reports": [
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "A",
+      "path": "daily-scrum/Day01-A.md",
+      "valid": true,
+      "sha256": "c60c67750a2e00cbf95ac53d88e1f0b8b2baa25f9126ec3f4776a7fdf1266380",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "B",
+      "path": "daily-scrum/Day01-B.md",
+      "valid": true,
+      "sha256": "281a6b2a1bbfcc8bfb42a07a7b89504a42d84178b7954fab9f2b21ab2e5cce19",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "A",
+      "path": "daily-scrum/Day02-A.md",
+      "valid": true,
+      "sha256": "1f9b0e90799d2389ae91892979a1990b6e4c7d027842140107458ffabdf8a230",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "B",
+      "path": "daily-scrum/Day02-B.md",
+      "valid": true,
+      "sha256": "638af7fc391195dbe454c36e2c6976a33d91e6d470ae238fbe37a5c2f41423f3",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "A",
+      "path": "daily-scrum/Day03-A.md",
+      "valid": true,
+      "sha256": "4fd3508200b3021d0fc5b39bf41496306569d77ba1647871a83b7d207e9d0534",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "B",
+      "path": "daily-scrum/Day03-B.md",
+      "valid": true,
+      "sha256": "9ee89148d28945cc16ab29f008fe49730c16239ef3cffb60857901d486dbdec0",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "LEARNING-20261102-A",
+      "owner": "A",
+      "name": "课程学习和讨论：Alpha 复杂搭积木与 Beta 工具收纳的目标及阶段验证",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 1,
+      "planned_date": "2026-11-02",
+      "verification_plan": "核对课程讨论纪要和目标分解，按用户确认记录完成。"
+    },
+    {
+      "id": "LEARNING-20261102-B",
+      "owner": "B",
+      "name": "课程学习和讨论：Alpha 复杂搭积木与 Beta 工具收纳的目标及阶段验证",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 1,
+      "planned_date": "2026-11-02",
+      "verification_plan": "核对课程讨论纪要和目标分解，按用户确认记录完成。"
+    },
+    {
+      "id": "ENG-01-A",
+      "owner": "A",
+      "name": "搭积木与工具收纳的硬件、场景及动作基线",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 2,
+      "planned_date": "2026-11-03",
+      "engineering_day": 1,
+      "verification_plan": "固定桌面、对象及区域可用，保存基线记录",
+      "baseline_reference": "原 Markdown 十天计划第 1 个工程日，A；初估与负责人不变",
+      "dependencies": []
+    },
+    {
+      "id": "ENG-01-B",
+      "owner": "B",
+      "name": "明确两类语音任务的接口、验收边界和任务状态",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 2,
+      "planned_date": "2026-11-03",
+      "engineering_day": 1,
+      "verification_plan": "两类指令能转为一致任务描述，保存接口与验收文档",
+      "baseline_reference": "原 Markdown 十天计划第 1 个工程日，B；初估与负责人不变",
+      "dependencies": []
+    },
+    {
+      "id": "ENG-02-A",
+      "owner": "A",
+      "name": "验证积木感知与目标区域定位",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 3,
+      "planned_date": "2026-11-04",
+      "engineering_day": 2,
+      "verification_plan": "识别与定位结果可检查，记录适用条件与问题",
+      "baseline_reference": "原 Markdown 十天计划第 2 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-01-A"
+      ]
+    },
+    {
+      "id": "ENG-02-B",
+      "owner": "B",
+      "name": "实现积木语音指令解析与歧义确认",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 3,
+      "planned_date": "2026-11-04",
+      "engineering_day": 2,
+      "verification_plan": "指令能表达排列、叠放及目标关系；歧义不直接执行",
+      "baseline_reference": "原 Markdown 十天计划第 2 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-01-B"
+      ]
+    },
+    {
+      "id": "ENG-03-A",
+      "owner": "A",
+      "name": "验证机械臂停止保护与积木基本动作",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 4,
+      "planned_date": "2026-11-05",
+      "engineering_day": 3,
+      "verification_plan": "停止与复位行为符合约定，保存检查记录",
+      "baseline_reference": "原 Markdown 十天计划第 3 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-02-A"
+      ]
+    },
+    {
+      "id": "ENG-03-B",
+      "owner": "B",
+      "name": "实现多步任务状态管理与模拟执行",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 4,
+      "planned_date": "2026-11-05",
+      "engineering_day": 3,
+      "verification_plan": "多步状态正常流转，异常可暂停，保存模拟日志",
+      "baseline_reference": "原 Markdown 十天计划第 3 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-02-B"
+      ]
+    },
+    {
+      "id": "ENG-04-A",
+      "owner": "A",
+      "name": "准备组合搭积木的数据、动作片段与候选策略",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 5,
+      "planned_date": "2026-11-06",
+      "engineering_day": 4,
+      "verification_plan": "组合动作具备来源及版本记录，完成候选策略检查",
+      "baseline_reference": "原 Markdown 十天计划第 4 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-03-A"
+      ]
+    },
+    {
+      "id": "ENG-04-B",
+      "owner": "B",
+      "name": "接通语音任务与机械臂技能调用",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 5,
+      "planned_date": "2026-11-06",
+      "engineering_day": 4,
+      "verification_plan": "语音任务能够调用已验证动作并回传状态",
+      "baseline_reference": "原 Markdown 十天计划第 4 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-03-B"
+      ]
+    },
+    {
+      "id": "ENG-05-A",
+      "owner": "A",
+      "name": "验证复杂搭积木的动作衔接与结果复核",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 6,
+      "planned_date": "2026-11-09",
+      "engineering_day": 5,
+      "verification_plan": "在受控场景执行含排列或叠放关系的多步任务并记录结果",
+      "baseline_reference": "原 Markdown 十天计划第 5 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-04-A"
+      ]
+    },
+    {
+      "id": "ENG-05-B",
+      "owner": "B",
+      "name": "联调复杂搭积木语音闭环",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 6,
+      "planned_date": "2026-11-09",
+      "engineering_day": 5,
+      "verification_plan": "语音输入、确认、多步执行和结果反馈闭环可演示；保存成功与失败记录",
+      "baseline_reference": "原 Markdown 十天计划第 5 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-04-B"
+      ]
+    },
+    {
+      "id": "ENG-06-A",
+      "owner": "A",
+      "name": "验证工具收纳物品、位置与抓放适配",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 7,
+      "planned_date": "2026-11-10",
+      "engineering_day": 6,
+      "verification_plan": "轻小工具与收纳区可达，保存适配检查记录",
+      "baseline_reference": "原 Markdown 十天计划第 6 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-05-A"
+      ]
+    },
+    {
+      "id": "ENG-06-B",
+      "owner": "B",
+      "name": "实现工具收纳语音任务与区域映射",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 7,
+      "planned_date": "2026-11-10",
+      "engineering_day": 6,
+      "verification_plan": "语音对象与收纳位置映射可检查，不明确对象先确认",
+      "baseline_reference": "原 Markdown 十天计划第 6 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-05-B"
+      ]
+    },
+    {
+      "id": "ENG-07-A",
+      "owner": "A",
+      "name": "验证工具收纳执行并观察用户试用",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 8,
+      "planned_date": "2026-11-11",
+      "engineering_day": 7,
+      "verification_plan": "受控工具收纳能执行并复核，保存观察与问题记录",
+      "baseline_reference": "原 Markdown 十天计划第 7 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-06-A"
+      ]
+    },
+    {
+      "id": "ENG-07-B",
+      "owner": "B",
+      "name": "联调工具收纳闭环与异常暂停",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 8,
+      "planned_date": "2026-11-11",
+      "engineering_day": 7,
+      "verification_plan": "指令到收纳结果闭环可检查，异常暂停与恢复符合约定",
+      "baseline_reference": "原 Markdown 十天计划第 7 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-06-B"
+      ]
+    },
+    {
+      "id": "ENG-08-A",
+      "owner": "A",
+      "name": "集成缓冲：复测两类任务的硬件、感知及策略问题",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 9,
+      "planned_date": "2026-11-12",
+      "engineering_day": 8,
+      "verification_plan": "复测并关闭影响演示的执行问题；保留未解决项",
+      "baseline_reference": "原 Markdown 十天计划第 8 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-07-A"
+      ]
+    },
+    {
+      "id": "ENG-08-B",
+      "owner": "B",
+      "name": "集成缓冲：修复两类语音任务的集成问题",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 9,
+      "planned_date": "2026-11-12",
+      "engineering_day": 8,
+      "verification_plan": "关键缺陷回归有证据，不再扩展任务种类",
+      "baseline_reference": "原 Markdown 十天计划第 8 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-07-B"
+      ]
+    },
+    {
+      "id": "ENG-09-A",
+      "owner": "A",
+      "name": "集成缓冲：两类场景彩排与备份视频",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 10,
+      "planned_date": "2026-11-13",
+      "engineering_day": 9,
+      "verification_plan": "复杂搭积木与工具收纳各有连续彩排记录",
+      "baseline_reference": "原 Markdown 十天计划第 9 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-08-A"
+      ]
+    },
+    {
+      "id": "ENG-09-B",
+      "owner": "B",
+      "name": "冻结候选版本并整理两类场景演示包",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 10,
+      "planned_date": "2026-11-13",
+      "engineering_day": 9,
+      "verification_plan": "按照说明能复现两类受控任务，日志与版本可追踪",
+      "baseline_reference": "原 Markdown 十天计划第 9 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-08-B"
+      ]
+    },
+    {
+      "id": "ENG-10-A",
+      "owner": "A",
+      "name": "完成两类语音机械臂场景验收和用户观察",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 11,
+      "planned_date": "2026-11-16",
+      "engineering_day": 10,
+      "verification_plan": "分别报告两类任务成功、失败、人工接管和适用边界",
+      "baseline_reference": "原 Markdown 十天计划第 10 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-09-A"
+      ]
+    },
+    {
+      "id": "ENG-10-B",
+      "owner": "B",
+      "name": "交付版本、测试结果、已知限制与复盘",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 11,
+      "planned_date": "2026-11-16",
+      "engineering_day": 10,
+      "verification_plan": "演示、日志、版本及已知问题归档，未达标项明确列出",
+      "baseline_reference": "原 Markdown 十天计划第 10 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-09-B"
+      ]
+    }
+  ],
+  "report_format": "compatible",
+  "workdays": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "ideal_workday_count": 15,
+  "reporting_mode": "flexible",
+  "required_report_days": 10,
+  "unmapped_reports": [],
+  "report_schedule": [
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "entries": {
+        "A": {
+          "day": 1,
+          "member": "A",
+          "path": "daily-scrum/Day01-A.md",
+          "date": "2026-11-02",
+          "present": true,
+          "sha256": "c60c67750a2e00cbf95ac53d88e1f0b8b2baa25f9126ec3f4776a7fdf1266380",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 1,
+          "member": "B",
+          "path": "daily-scrum/Day01-B.md",
+          "date": "2026-11-02",
+          "present": true,
+          "sha256": "281a6b2a1bbfcc8bfb42a07a7b89504a42d84178b7954fab9f2b21ab2e5cce19",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "A": 1,
+        "B": 1
+      },
+      "reference_day": 1,
+      "rejected_members": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "entries": {
+        "A": {
+          "day": 2,
+          "member": "A",
+          "path": "daily-scrum/Day02-A.md",
+          "date": "2026-11-03",
+          "present": true,
+          "sha256": "1f9b0e90799d2389ae91892979a1990b6e4c7d027842140107458ffabdf8a230",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 2,
+          "member": "B",
+          "path": "daily-scrum/Day02-B.md",
+          "date": "2026-11-03",
+          "present": true,
+          "sha256": "638af7fc391195dbe454c36e2c6976a33d91e6d470ae238fbe37a5c2f41423f3",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "A": 2,
+        "B": 2
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "entries": {
+        "A": {
+          "day": 3,
+          "member": "A",
+          "path": "daily-scrum/Day03-A.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "4fd3508200b3021d0fc5b39bf41496306569d77ba1647871a83b7d207e9d0534",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 3,
+          "member": "B",
+          "path": "daily-scrum/Day03-B.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "9ee89148d28945cc16ab29f008fe49730c16239ef3cffb60857901d486dbdec0",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-08",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-09",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 14,
+      "date": "2026-11-15",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    },
+    {
+      "day": 15,
+      "date": "2026-11-16",
+      "entries": {},
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
+      "rejected_members": []
+    }
+  ],
+  "submission_progress": {
+    "required_days": 10,
+    "complete_days": 3,
+    "complete_dates": [
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04"
+    ],
+    "member_days": {
+      "A": 3,
+      "B": 3
+    },
+    "deadline": "2026-11-16",
+    "deadline_reached": false,
+    "status": "in_progress"
+  },
+  "plan_sha256": "de518d7b23792e195439437fa3ecee3953240cf8aeb830c8b1c5a615f42ae919",
+  "display_series": [
+    {
+      "day": 0,
+      "date": null,
+      "ideal_remaining": 81,
+      "remaining_hours": 81,
+      "reported_spent_hours": 0.0,
+      "reported_daily_spent": 0.0,
+      "status": "baseline",
+      "remaining_quality": "baseline",
+      "spent_quality": "baseline",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "ideal_remaining": 72.9,
+      "remaining_hours": 75,
+      "reported_spent_hours": 6.0,
+      "reported_daily_spent": 6.0,
+      "status": "verified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 22,
+      "eligible_tasks": 22,
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-A.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "ideal_remaining": 64.8,
+      "remaining_hours": 69,
+      "reported_spent_hours": 10.0,
+      "reported_daily_spent": 4.0,
+      "status": "verified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 22,
+      "eligible_tasks": 22,
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-A.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "ideal_remaining": 56.7,
+      "remaining_hours": 61,
+      "reported_spent_hours": 14.0,
+      "reported_daily_spent": 4.0,
+      "status": "verified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 22,
+      "eligible_tasks": 22,
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "ideal_remaining": 56.7,
+      "remaining_hours": 61,
+      "reported_spent_hours": 14.0,
+      "reported_daily_spent": null,
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "ENG-01-A",
+        "ENG-01-B",
+        "ENG-02-A",
+        "ENG-02-B",
+        "ENG-03-A",
+        "ENG-03-B",
+        "ENG-04-A",
+        "ENG-04-B",
+        "ENG-05-A",
+        "ENG-05-B",
+        "ENG-06-A",
+        "ENG-06-B",
+        "ENG-07-A",
+        "ENG-07-B",
+        "ENG-08-A",
+        "ENG-08-B",
+        "ENG-09-A",
+        "ENG-09-B",
+        "ENG-10-A",
+        "ENG-10-B",
+        "LEARNING-20261102-A",
+        "LEARNING-20261102-B"
+      ],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-A.md",
+          "carried": true
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-B.md",
+          "carried": true
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-08",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-09",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 14,
+      "date": "2026-11-15",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 15,
+      "date": "2026-11-16",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 22,
+      "remaining_sources": [],
+      "excluded_members": []
+    }
+  ],
+  "display_reports": [
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "A",
+      "path": "daily-scrum/Day01-A.md",
+      "present": true,
+      "sha256": "c60c67750a2e00cbf95ac53d88e1f0b8b2baa25f9126ec3f4776a7fdf1266380",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "B",
+      "path": "daily-scrum/Day01-B.md",
+      "present": true,
+      "sha256": "281a6b2a1bbfcc8bfb42a07a7b89504a42d84178b7954fab9f2b21ab2e5cce19",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "A",
+      "path": "daily-scrum/Day02-A.md",
+      "present": true,
+      "sha256": "1f9b0e90799d2389ae91892979a1990b6e4c7d027842140107458ffabdf8a230",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "B",
+      "path": "daily-scrum/Day02-B.md",
+      "present": true,
+      "sha256": "638af7fc391195dbe454c36e2c6976a33d91e6d470ae238fbe37a5c2f41423f3",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "A",
+      "path": "daily-scrum/Day03-A.md",
+      "present": true,
+      "sha256": "4fd3508200b3021d0fc5b39bf41496306569d77ba1647871a83b7d207e9d0534",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "B",
+      "path": "daily-scrum/Day03-B.md",
+      "present": true,
+      "sha256": "9ee89148d28945cc16ab29f008fe49730c16239ef3cffb60857901d486dbdec0",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    }
+  ],
+  "display_tasks": [
+    {
+      "id": "LEARNING-20261102-A",
+      "owner": "A",
+      "name": "课程学习和讨论：Alpha 复杂搭积木与 Beta 工具收纳的目标及阶段验证",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 1,
+      "planned_date": "2026-11-02",
+      "verification_plan": "核对课程讨论纪要和目标分解，按用户确认记录完成。"
+    },
+    {
+      "id": "LEARNING-20261102-B",
+      "owner": "B",
+      "name": "课程学习和讨论：Alpha 复杂搭积木与 Beta 工具收纳的目标及阶段验证",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 1,
+      "planned_date": "2026-11-02",
+      "verification_plan": "核对课程讨论纪要和目标分解，按用户确认记录完成。"
+    },
+    {
+      "id": "ENG-01-A",
+      "owner": "A",
+      "name": "搭积木与工具收纳的硬件、场景及动作基线",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 2,
+      "planned_date": "2026-11-03",
+      "engineering_day": 1,
+      "verification_plan": "固定桌面、对象及区域可用，保存基线记录",
+      "baseline_reference": "原 Markdown 十天计划第 1 个工程日，A；初估与负责人不变",
+      "dependencies": []
+    },
+    {
+      "id": "ENG-01-B",
+      "owner": "B",
+      "name": "明确两类语音任务的接口、验收边界和任务状态",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 2,
+      "planned_date": "2026-11-03",
+      "engineering_day": 1,
+      "verification_plan": "两类指令能转为一致任务描述，保存接口与验收文档",
+      "baseline_reference": "原 Markdown 十天计划第 1 个工程日，B；初估与负责人不变",
+      "dependencies": []
+    },
+    {
+      "id": "ENG-02-A",
+      "owner": "A",
+      "name": "验证积木感知与目标区域定位",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 3,
+      "planned_date": "2026-11-04",
+      "engineering_day": 2,
+      "verification_plan": "识别与定位结果可检查，记录适用条件与问题",
+      "baseline_reference": "原 Markdown 十天计划第 2 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-01-A"
+      ]
+    },
+    {
+      "id": "ENG-02-B",
+      "owner": "B",
+      "name": "实现积木语音指令解析与歧义确认",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 3,
+      "planned_date": "2026-11-04",
+      "engineering_day": 2,
+      "verification_plan": "指令能表达排列、叠放及目标关系；歧义不直接执行",
+      "baseline_reference": "原 Markdown 十天计划第 2 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-01-B"
+      ]
+    },
+    {
+      "id": "ENG-03-A",
+      "owner": "A",
+      "name": "验证机械臂停止保护与积木基本动作",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 4,
+      "planned_date": "2026-11-05",
+      "engineering_day": 3,
+      "verification_plan": "停止与复位行为符合约定，保存检查记录",
+      "baseline_reference": "原 Markdown 十天计划第 3 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-02-A"
+      ]
+    },
+    {
+      "id": "ENG-03-B",
+      "owner": "B",
+      "name": "实现多步任务状态管理与模拟执行",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 4,
+      "planned_date": "2026-11-05",
+      "engineering_day": 3,
+      "verification_plan": "多步状态正常流转，异常可暂停，保存模拟日志",
+      "baseline_reference": "原 Markdown 十天计划第 3 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-02-B"
+      ]
+    },
+    {
+      "id": "ENG-04-A",
+      "owner": "A",
+      "name": "准备组合搭积木的数据、动作片段与候选策略",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 5,
+      "planned_date": "2026-11-06",
+      "engineering_day": 4,
+      "verification_plan": "组合动作具备来源及版本记录，完成候选策略检查",
+      "baseline_reference": "原 Markdown 十天计划第 4 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-03-A"
+      ]
+    },
+    {
+      "id": "ENG-04-B",
+      "owner": "B",
+      "name": "接通语音任务与机械臂技能调用",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 5,
+      "planned_date": "2026-11-06",
+      "engineering_day": 4,
+      "verification_plan": "语音任务能够调用已验证动作并回传状态",
+      "baseline_reference": "原 Markdown 十天计划第 4 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-03-B"
+      ]
+    },
+    {
+      "id": "ENG-05-A",
+      "owner": "A",
+      "name": "验证复杂搭积木的动作衔接与结果复核",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 6,
+      "planned_date": "2026-11-09",
+      "engineering_day": 5,
+      "verification_plan": "在受控场景执行含排列或叠放关系的多步任务并记录结果",
+      "baseline_reference": "原 Markdown 十天计划第 5 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-04-A"
+      ]
+    },
+    {
+      "id": "ENG-05-B",
+      "owner": "B",
+      "name": "联调复杂搭积木语音闭环",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 6,
+      "planned_date": "2026-11-09",
+      "engineering_day": 5,
+      "verification_plan": "语音输入、确认、多步执行和结果反馈闭环可演示；保存成功与失败记录",
+      "baseline_reference": "原 Markdown 十天计划第 5 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-04-B"
+      ]
+    },
+    {
+      "id": "ENG-06-A",
+      "owner": "A",
+      "name": "验证工具收纳物品、位置与抓放适配",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 7,
+      "planned_date": "2026-11-10",
+      "engineering_day": 6,
+      "verification_plan": "轻小工具与收纳区可达，保存适配检查记录",
+      "baseline_reference": "原 Markdown 十天计划第 6 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-05-A"
+      ]
+    },
+    {
+      "id": "ENG-06-B",
+      "owner": "B",
+      "name": "实现工具收纳语音任务与区域映射",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 7,
+      "planned_date": "2026-11-10",
+      "engineering_day": 6,
+      "verification_plan": "语音对象与收纳位置映射可检查，不明确对象先确认",
+      "baseline_reference": "原 Markdown 十天计划第 6 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-05-B"
+      ]
+    },
+    {
+      "id": "ENG-07-A",
+      "owner": "A",
+      "name": "验证工具收纳执行并观察用户试用",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 8,
+      "planned_date": "2026-11-11",
+      "engineering_day": 7,
+      "verification_plan": "受控工具收纳能执行并复核，保存观察与问题记录",
+      "baseline_reference": "原 Markdown 十天计划第 7 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-06-A"
+      ]
+    },
+    {
+      "id": "ENG-07-B",
+      "owner": "B",
+      "name": "联调工具收纳闭环与异常暂停",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 8,
+      "planned_date": "2026-11-11",
+      "engineering_day": 7,
+      "verification_plan": "指令到收纳结果闭环可检查，异常暂停与恢复符合约定",
+      "baseline_reference": "原 Markdown 十天计划第 7 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-06-B"
+      ]
+    },
+    {
+      "id": "ENG-08-A",
+      "owner": "A",
+      "name": "集成缓冲：复测两类任务的硬件、感知及策略问题",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 9,
+      "planned_date": "2026-11-12",
+      "engineering_day": 8,
+      "verification_plan": "复测并关闭影响演示的执行问题；保留未解决项",
+      "baseline_reference": "原 Markdown 十天计划第 8 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-07-A"
+      ]
+    },
+    {
+      "id": "ENG-08-B",
+      "owner": "B",
+      "name": "集成缓冲：修复两类语音任务的集成问题",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 9,
+      "planned_date": "2026-11-12",
+      "engineering_day": 8,
+      "verification_plan": "关键缺陷回归有证据，不再扩展任务种类",
+      "baseline_reference": "原 Markdown 十天计划第 8 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-07-B"
+      ]
+    },
+    {
+      "id": "ENG-09-A",
+      "owner": "A",
+      "name": "集成缓冲：两类场景彩排与备份视频",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 10,
+      "planned_date": "2026-11-13",
+      "engineering_day": 9,
+      "verification_plan": "复杂搭积木与工具收纳各有连续彩排记录",
+      "baseline_reference": "原 Markdown 十天计划第 9 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-08-A"
+      ]
+    },
+    {
+      "id": "ENG-09-B",
+      "owner": "B",
+      "name": "冻结候选版本并整理两类场景演示包",
+      "initial_hours": 4,
+      "added_day": 0,
+      "planned_day": 10,
+      "planned_date": "2026-11-13",
+      "engineering_day": 9,
+      "verification_plan": "按照说明能复现两类受控任务，日志与版本可追踪",
+      "baseline_reference": "原 Markdown 十天计划第 9 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-08-B"
+      ]
+    },
+    {
+      "id": "ENG-10-A",
+      "owner": "A",
+      "name": "完成两类语音机械臂场景验收和用户观察",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 11,
+      "planned_date": "2026-11-16",
+      "engineering_day": 10,
+      "verification_plan": "分别报告两类任务成功、失败、人工接管和适用边界",
+      "baseline_reference": "原 Markdown 十天计划第 10 个工程日，A；初估与负责人不变",
+      "dependencies": [
+        "ENG-09-A"
+      ]
+    },
+    {
+      "id": "ENG-10-B",
+      "owner": "B",
+      "name": "交付版本、测试结果、已知限制与复盘",
+      "initial_hours": 3,
+      "added_day": 0,
+      "planned_day": 11,
+      "planned_date": "2026-11-16",
+      "engineering_day": 10,
+      "verification_plan": "演示、日志、版本及已知问题归档，未达标项明确列出",
+      "baseline_reference": "原 Markdown 十天计划第 10 个工程日，B；初估与负责人不变",
+      "dependencies": [
+        "ENG-09-B"
+      ]
+    }
+  ],
+  "display_plan_verified": true,
+  "display_notes": [],
+  "fetched_at_utc": "2026-11-05T09:08:33.047922+00:00",
+  "generated_at_utc": "2026-11-05T09:10:09.710833+00:00"
+}

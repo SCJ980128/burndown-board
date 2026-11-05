@@ -1,0 +1,2 @@
+﻿severity,code,day,member,task,path,message
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。

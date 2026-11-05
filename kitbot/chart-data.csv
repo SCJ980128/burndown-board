@@ -1,0 +1,17 @@
+﻿day,date,ideal_remaining,remaining_hours,reported_spent_hours,reported_daily_spent,remaining_quality,spent_quality,status,observed_remaining_tasks,eligible_tasks,carried_tasks,excluded_members
+0,,120,120,0.0,0.0,baseline,baseline,baseline,0,40,,
+1,2026-11-02,108.0,118.5,21.5,21.5,reported,reported,unverified,48,48,,
+2,2026-11-03,96.0,108.0,35.0,13.5,reported,reported,unverified,48,48,,
+3,2026-11-04,96.0,104.5,43.0,8.0,estimated,partial,unverified,36,48,"S01-D01-class-zhengge, S01-D01-inventory, S01-D02-bench, S01-D03-camera, S01-D04-bench-stop, S01-D05-ground-stop, S01-D06-class-zhengge, S01-D06-demo-site, S01-D07-fault-recovery, S01-D08-hw-defects, S01-D09-enclosure-review, S01-D10-handover",zhengge
+4,2026-11-05,96.0,102.5,46.0,3.0,estimated,partial,unverified,12,48,"S01-D01-adr, S01-D01-class-fangzhi, S01-D01-class-yifan, S01-D01-class-zhengge, S01-D01-inventory, S01-D01-spec, S01-D02-bench, S01-D02-stop-chain, S01-D02-store, S01-D03-camera, S01-D03-panel-list, S01-D03-ws-ingest, S01-D04-bench-stop, S01-D04-e2e-1, S01-D04-panel-edit, S01-D05-completeness, S01-D05-e2e-2, S01-D05-ground-stop, S01-D06-class-fangzhi, S01-D06-class-yifan, S01-D06-class-zhengge, S01-D06-data-lifecycle, S01-D06-demo-site, S01-D06-freshness, S01-D07-acceptance, S01-D07-fault-recovery, S01-D07-walkthrough, S01-D08-hw-defects, S01-D08-interface-defects, S01-D08-record-defects, S01-D09-enclosure-review, S01-D09-evidence-index, S01-D09-release-candidate, S01-D10-handover, S01-D10-release-tag, S01-D10-sprint-review","fangzhi, zhengge, yifan"
+5,2026-11-06,,,,,future,future,future,0,48,,
+6,2026-11-07,,,,,future,future,future,0,48,,
+7,2026-11-08,,,,,future,future,future,0,48,,
+8,2026-11-09,,,,,future,future,future,0,48,,
+9,2026-11-10,,,,,future,future,future,0,48,,
+10,2026-11-11,,,,,future,future,future,0,48,,
+11,2026-11-12,,,,,future,future,future,0,48,,
+12,2026-11-13,,,,,future,future,future,0,48,,
+13,2026-11-14,,,,,future,future,future,0,48,,
+14,2026-11-15,,,,,future,future,future,0,48,,
+15,2026-11-16,,,,,future,future,future,0,48,,

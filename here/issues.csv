@@ -1,0 +1,16 @@
+﻿severity,code,day,member,task,path,message
+error,REPORT_SCHEDULE,2,C,,daily-scrum/Day02-C.md,day 与文件名不匹配
+warning,UNEXPECTED_FILE,,,,daily-scrum/_TEMPLATE.md,文件命名或成员代号不符合配置；不参与统计。
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+info,SCOPE_ADDED,2,A,T31,,新增 3h；2026-11-03用户确认11/02和11/09两次课程各每人3h计入燃尽图。11/02已在T01/T02/T03计入，仅将11/09课程作为Day02新纳入的范围；实际执行日期为Day06。；理想线基线保持不变。
+info,SCOPE_ADDED,2,B,T32,,新增 3h；2026-11-03用户确认11/02和11/09两次课程各每人3h计入燃尽图。11/02已在T01/T02/T03计入，仅将11/09课程作为Day02新纳入的范围；实际执行日期为Day06。；理想线基线保持不变。
+error,INVALID_REPORT,2,A,,daily-scrum/Day02-A.md,T23: 提供证据时必须说明验证方式
+error,INVALID_REPORT,2,B,,daily-scrum/Day02-B.md,T22: 提供证据时必须说明验证方式
+info,PARTIAL_SUBMISSION,,C,,,2026-11-03 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,BLOCKED,3,A,T08,daily-scrum/Day03-A.md,本次试装未装电池且未插TF卡，主板未启动，后续需在配件齐备后复测。
+error,INVALID_REPORT,3,A,,daily-scrum/Day03-A.md,T23: 提供证据时必须说明验证方式
+error,INVALID_REPORT,3,B,,daily-scrum/Day03-B.md,T22: 提供证据时必须说明验证方式
+info,PARTIAL_SUBMISSION,,C,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,PARTIAL_SUBMISSION,,A,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+error,INVALID_REPORT,4,B,,daily-scrum/Day04-B.md,T22: 提供证据时必须说明验证方式
+info,PARTIAL_SUBMISSION,,C,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。

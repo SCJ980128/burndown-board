@@ -1,0 +1,3709 @@
+{
+  "id": "kitbot",
+  "name": "Kitbot",
+  "sprint_id": "S01",
+  "source": {
+    "type": "gitee",
+    "repo": "zgca-kitbot-team/kitbot",
+    "branch": "master",
+    "transport": "https"
+  },
+  "members": {
+    "weihua": "邝伟华",
+    "fangzhi": "钟芳梽",
+    "zhengge": "黄铮舸",
+    "yifan": "陈轶凡"
+  },
+  "schema_version": 1,
+  "as_of": "2026-11-05",
+  "snapshot": "4f0087c785bd1429951aa6828dfc85840e319c5a",
+  "issues": [
+    {
+      "severity": "error",
+      "code": "REPORT_SCHEDULE",
+      "message": "day 与文件名不匹配",
+      "day": 3,
+      "member": "zhengge",
+      "task": "",
+      "path": "daily-scrum/Day03-zhengge.md"
+    },
+    {
+      "severity": "warning",
+      "code": "UNEXPECTED_FILE",
+      "message": "文件命名或成员代号不符合配置；不参与统计。",
+      "day": null,
+      "member": "",
+      "task": "",
+      "path": "daily-scrum/_TEMPLATE.md"
+    },
+    {
+      "severity": "warning",
+      "code": "UNPINNED_PLAN",
+      "day": null,
+      "member": "",
+      "task": "",
+      "path": "",
+      "message": "未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "yifan",
+      "task": "S01-D01-class-yifan",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "weihua",
+      "task": "S01-D01-class-weihua",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "fangzhi",
+      "task": "S01-D01-class-fangzhi",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "zhengge",
+      "task": "S01-D01-class-zhengge",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "yifan",
+      "task": "S01-D06-class-yifan",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "weihua",
+      "task": "S01-D06-class-weihua",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "fangzhi",
+      "task": "S01-D06-class-fangzhi",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 1,
+      "member": "zhengge",
+      "task": "S01-D06-class-zhengge",
+      "path": "",
+      "message": "新增 3h；11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）；理想线基线保持不变。"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 1,
+      "member": "zhengge",
+      "task": "",
+      "path": "daily-scrum/Day01-zhengge.md",
+      "message": "S01-D01-inventory: 证据文件不存在、为空或不是普通文件：docs/evidence/S01/D01/kit-inventory.md"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 1,
+      "member": "yifan",
+      "task": "S01-D01-adr",
+      "path": "daily-scrum/Day01-yifan.md",
+      "message": "待实物确认项（C1～C4、相机、小屏等）要等 zhengge、weihua 整机盘点和台架（车已到，还在调试）；ADR 第 8 节问题 1（租约到期只停输出还是锁上）需要 fangzhi 在 11-03 D02 开始前确认"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 1,
+      "member": "yifan",
+      "task": "S01-D03-panel-list",
+      "path": "daily-scrum/Day01-yifan.md",
+      "message": "依赖 fangzhi 的 S01-D02-store；面板会话接口要等健康记录接口二选一（docs/impl/notes/需要确认的事-1102.md 第 14 条），11-04 之前要定"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 1,
+      "member": "yifan",
+      "task": "S01-D04-panel-edit",
+      "path": "daily-scrum/Day01-yifan.md",
+      "message": "依赖 S01-D03-panel-list，同样等健康记录接口二选一"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 2,
+      "member": "weihua",
+      "task": "S01-D02-pi-bridge",
+      "path": "daily-scrum/Day02-weihua.md",
+      "message": "状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，新版只过 Windows 单测，需本人 D03 重新部署后补 pi-bridge.log，无他人依赖"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 2,
+      "member": "zhengge",
+      "task": "",
+      "path": "daily-scrum/Day02-zhengge.md",
+      "message": "S01-D01-inventory: 证据文件不存在、为空或不是普通文件：docs/evidence/S01/D01/kit-inventory.md"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 2,
+      "member": "yifan",
+      "task": "S01-D01-adr",
+      "path": "daily-scrum/Day02-yifan.md",
+      "message": "待实物确认项（C1～C4、相机、小屏等）要等 zhengge、weihua 整机盘点和台架（车已到，还在调试）；ADR 第 8 节问题 1（租约到期只停输出还是锁上）需要 fangzhi 在 11-03 D02 开始前确认"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 2,
+      "member": "yifan",
+      "task": "S01-D03-panel-list",
+      "path": "daily-scrum/Day02-yifan.md",
+      "message": "依赖 fangzhi 的 S01-D02-store；面板会话接口要等健康记录接口二选一（docs/impl/notes/需要确认的事-1102.md 第 14 条），11-04 之前要定"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 2,
+      "member": "yifan",
+      "task": "S01-D04-panel-edit",
+      "path": "daily-scrum/Day02-yifan.md",
+      "message": "依赖 S01-D03-panel-list，同样等健康记录接口二选一"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 2,
+      "member": "yifan",
+      "task": "S01-D08-interface-defects",
+      "path": "daily-scrum/Day02-yifan.md",
+      "message": "电脑上已回归通过（SIMULATED）；真车上的正确性要等车上换成新版整机程序后复测（需要确认的事-1102 第 2 条，weihua、zhengge）；放音移出设备主循环等 weihua 定（第 1 条第 3 点）"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "weihua",
+      "task": "S01-D02-pi-bridge",
+      "path": "daily-scrum/Day03-weihua.md",
+      "message": "状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，需本人重新部署后补 pi-bridge.log，无他人依赖"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "weihua",
+      "task": "S01-D03-detect-proto",
+      "path": "daily-scrum/Day03-weihua.md",
+      "message": "FPS/帧龄未测：15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通（地址略），需本人下次上真车补测；另需复跑一次确认不框人脸（均为本人 D04 前完成，无他人依赖）"
+    },
+    {
+      "severity": "info",
+      "code": "REMAINING_INCREASE",
+      "day": 3,
+      "member": "fangzhi",
+      "task": "S01-D01-spec",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "message": "0h → 0.5h：Day02的done缺少约定规格文件，今日补齐DRAFT及评审记录后改回doing；剩余0.5h为本人审阅的暂估，AI起草时间不计本人投入。"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "fangzhi",
+      "task": "S01-D01-spec",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "message": "需fangzhi在11-05 09:30站会前核对规格并确认验收；AI技术审查不替代本人验证。"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "fangzhi",
+      "task": "S01-D01-class-fangzhi",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "message": "11-02到课与课堂记录仍待fangzhi在下次站会核对，沿用Day02的todo/剩余3h，不把历史课程时间补计今天。"
+    },
+    {
+      "severity": "info",
+      "code": "REMAINING_INCREASE",
+      "day": 3,
+      "member": "fangzhi",
+      "task": "S01-D03-ws-ingest",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "message": "3h → 4h：本人确认今日总投入2h，统一记入D03；剩余由计划3h上调为暂估4h：适配/接线约2h、结构及中断测试约1h、协同冻结约1h。未根据已投入简单扣减；实际测试后更新估计。"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "fangzhi",
+      "task": "S01-D03-ws-ingest",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "message": "尚缺WS适配/接线、结构与异常路径测试及团队冻结；需fangzhi推进，并与yifan/weihua在11-05 09:30站会前核对事件映射、接口和F04路线。"
+    },
+    {
+      "severity": "info",
+      "code": "PARTIAL_SUBMISSION",
+      "day": null,
+      "member": "zhengge",
+      "task": "",
+      "path": "",
+      "message": "2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "yifan",
+      "task": "S01-D01-adr",
+      "path": "daily-scrum/Day03-yifan.md",
+      "message": "ADR 里要在真车上核对的 12 项（电机编号和转向、相机、小屏等）还没核：要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）、zhengge 把整车盘点记录推上来（第 6 条），以及 11-05 的架空测试（车垫高、轮子离地试电机和停止）；ADR 里问组员的问题 1、4 yifan 11-04 已先定（第 3、8 条），fangzhi、weihua 可改"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "yifan",
+      "task": "S01-D04-panel-edit",
+      "path": "daily-scrum/Day03-yifan.md",
+      "message": "确认、纠正、删除要用的后端接口，组里有两套草稿、只能做一套；yifan 11-04 先定用 weihua 的 /api/observations（docs/impl/notes/需要确认的事-1102.md 第 14 条），fangzhi、weihua 有不同意见请 11-05 中午 D04 开工以前回"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "yifan",
+      "task": "S01-D05-e2e-2",
+      "path": "daily-scrum/Day03-yifan.md",
+      "message": "要先做完 fangzhi 的第一轮联调（S01-D04-e2e-1）；在真车上测的部分，要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge，最好在 11-05 架空测试以前）"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 3,
+      "member": "yifan",
+      "task": "S01-D08-interface-defects",
+      "path": "daily-scrum/Day03-yifan.md",
+      "message": "电脑上用模拟的车测过了（SIMULATED）；真车上还要再测一遍“按停止 → 车停下 → 回确认”，要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 4,
+      "member": "weihua",
+      "task": "S01-D02-pi-bridge",
+      "path": "daily-scrum/Day04-weihua.md",
+      "message": "状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，需本人重新部署后补 pi-bridge.log，无他人依赖"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 4,
+      "member": "weihua",
+      "task": "S01-D03-detect-proto",
+      "path": "daily-scrum/Day04-weihua.md",
+      "message": "FPS/帧龄未测：D03 当天 15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通（地址略），需本人下次上真车补测；另需复跑一次确认不框人脸（均为本人 D05 前完成，无他人依赖）"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 4,
+      "member": "weihua",
+      "task": "S01-D04-detect-events",
+      "path": "daily-scrum/Day04-weihua.md",
+      "message": "真车 FPS/帧龄、误检/漏检样本未测；后端完整 pytest 与 test_device_events_api.py 未跑（本机没有 .venv，依赖装不上）；需本人下次上真车并装后端环境，D05 前完成，无他人依赖"
+    },
+    {
+      "severity": "info",
+      "code": "PARTIAL_SUBMISSION",
+      "day": null,
+      "member": "fangzhi",
+      "task": "",
+      "path": "",
+      "message": "2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。"
+    },
+    {
+      "severity": "info",
+      "code": "PARTIAL_SUBMISSION",
+      "day": null,
+      "member": "zhengge",
+      "task": "",
+      "path": "",
+      "message": "2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。"
+    },
+    {
+      "severity": "info",
+      "code": "PARTIAL_SUBMISSION",
+      "day": null,
+      "member": "yifan",
+      "task": "",
+      "path": "",
+      "message": "2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。"
+    }
+  ],
+  "series": [
+    {
+      "day": 0,
+      "date": null,
+      "ideal_remaining": 120,
+      "actual_remaining": 120,
+      "actual_spent": 0.0,
+      "daily_spent": 0.0,
+      "status": "baseline",
+      "missing_members": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "ideal_remaining": 108.0,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "zhengge"
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "ideal_remaining": 96.0,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "zhengge"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "ideal_remaining": 96.0,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "zhengge"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "ideal_remaining": 96.0,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "fangzhi",
+        "zhengge",
+        "yifan"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-08",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-09",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 14,
+      "date": "2026-11-15",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    },
+    {
+      "day": 15,
+      "date": "2026-11-16",
+      "ideal_remaining": null,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "future",
+      "missing_members": []
+    }
+  ],
+  "reports": [
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "weihua",
+      "path": "daily-scrum/Day01-weihua.md",
+      "valid": true,
+      "sha256": "b7a634f5d091dc1553d1200898ccacb4374bb3016d26c8fb7b3409f499d392c7",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "fangzhi",
+      "path": "daily-scrum/Day01-fangzhi.md",
+      "valid": true,
+      "sha256": "18518e37af45489dc1a0eb9806b85eb974c768718f3ce2ad7d13c84063d530be",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "zhengge",
+      "path": "daily-scrum/Day01-zhengge.md",
+      "valid": false,
+      "sha256": "d9f0fc1b022ebf54f5ff3f758864667aa13983e7ae7879b5c943ccb6e6602545",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "yifan",
+      "path": "daily-scrum/Day01-yifan.md",
+      "valid": true,
+      "sha256": "a926a8ba1e58457ca7df36588186f009d794d9b87936539734f0393db7099440",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "weihua",
+      "path": "daily-scrum/Day02-weihua.md",
+      "valid": true,
+      "sha256": "8f6a44a161bd94d0ab1d26bf9a91231ccdeec2a671f786be213af15bdf724ce6",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "fangzhi",
+      "path": "daily-scrum/Day02-fangzhi.md",
+      "valid": true,
+      "sha256": "a823543307ea1c14c5521695160ba89ea4faa61698438cf6c40162e9f6b12809",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "zhengge",
+      "path": "daily-scrum/Day02-zhengge.md",
+      "valid": false,
+      "sha256": "2bec047afbd60d1accae58c8c0ae81cf199f907c58a7cfbdab84b3fb1bf923d0",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "yifan",
+      "path": "daily-scrum/Day02-yifan.md",
+      "valid": true,
+      "sha256": "87b2d9df7a9fc15646ae1177f37b66a04fa12478bb361a9d9aa2a97f5672fbd7",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "weihua",
+      "path": "daily-scrum/Day03-weihua.md",
+      "valid": true,
+      "sha256": "07a674cb16a3cf4c1cc672bd7a7c0efe9ed1c24ec3821e74a661b672f2c41607",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "fangzhi",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "valid": true,
+      "sha256": "4c2af61f904672d54fad6ddf67dd5e60c662e770ff26229e14b070586570f03f",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "yifan",
+      "path": "daily-scrum/Day03-yifan.md",
+      "valid": true,
+      "sha256": "0162293ba5766af2a19e39c12507ceda4ae76061b183fba9928f4d83982b2319",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "member": "weihua",
+      "path": "daily-scrum/Day04-weihua.md",
+      "valid": true,
+      "sha256": "a94d7cb21b6bcde68ba3abd07e6a85b946bb1810a70a1d028fc0ac42889ecdb5",
+      "expected_task_count": 12,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 12,
+      "format_repairs": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "S01-D01-inventory",
+      "owner": "zhengge",
+      "name": "整机与场地基线盘点：开箱清点 Raspbot V2 套件并记录型号/序列号/缺件；检查供电（电池电压、充电器）、相机与云台安装位、现有接线与线束；采集系统版本与环境命令输出；对照 docs/hardware 既有文档逐项核对并列出不一致项；产出 docs/evidence/S01/D01/kit-inventory.md 与现场照片",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-spec",
+      "owner": "fangzhi",
+      "name": "F01「一局会话与记录」功能规格 DRAFT：定义会话/事件字段（来源、时间、观察覆盖、未知、确认、纠正、删除）与数据来源；明确记录、面板展示与删除/纠正边界；对照 T1 会话提案给出取舍；写一页验收条件（DoD）；提交 docs/design/functions/F01-session-record.md 并附交叉评审意见",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-infra",
+      "owner": "weihua",
+      "name": "Sprint 基础设施就绪：落地日报模板与字段口径；提供燃尽图/看板脚本与 --check；写清 README 与助教抓取路径；约定 backlog 状态维护流程；生成首版 docs/burndown/index.html 与看板，核对 40 条任务/120h、缺失日报与彩排数据（--demo）；完成 Scrum Master 首图",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-adr",
+      "owner": "yifan",
+      "name": "设备接入与停止路径 ADR 草案：论证复用设备 WS 还是新建通道；列 Pi 能力清单与限制；定义 STOP 语义（谁触发、停什么、如何确认）；给出台架方案与硬件不可用时的降级路径；提交 docs/design/decisions/ADR-S01-01.md 并列出待实物确认清单（D2 核对）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-class-yifan",
+      "owner": "yifan",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D01-class-weihua",
+      "owner": "weihua",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D01-class-fangzhi",
+      "owner": "fangzhi",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D01-class-zhengge",
+      "owner": "zhengge",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D02-bench",
+      "owner": "zhengge",
+      "name": "架空格架与相机/云台支架搭建：供电/固定/接线图与风险清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D02-store",
+      "owner": "fangzhi",
+      "name": "后端会话与事件存储（SQLite 迁移/去重键/完整性标记）+单测",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D02-pi-bridge",
+      "owner": "weihua",
+      "name": "Pi 端设备程序：连后端设备 WS/hello 能力/心跳与状态上报",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D02-stop-chain",
+      "owner": "yifan",
+      "name": "停止链路实现：后端 STOP→设备停止→stop_ack（先用模拟设备联调）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-camera",
+      "owner": "zhengge",
+      "name": "相机与云台实际取流/曝光/视野覆盖测试",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-panel-list",
+      "owner": "yifan",
+      "name": "面板会话列表与详情只读接口+前端展示",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-detect-proto",
+      "owner": "weihua",
+      "name": "Pi 端相机取帧与检测原型（机上或主机回退二选一）并记录 FPS/帧龄",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-ws-ingest",
+      "owner": "fangzhi",
+      "name": "后端 WS 事件接入（seq 去重/跳号缺口/未完成会话）+F01 冻结评审",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-bench-stop",
+      "owner": "zhengge",
+      "name": "台架运动与实体 STOP 可用性验证（架空）+停止响应测量",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-panel-edit",
+      "owner": "yifan",
+      "name": "面板确认/纠正/删除+来源与未知状态展示",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-detect-events",
+      "owner": "weihua",
+      "name": "检测事件与设备健康上报接入后端+误检漏检样本记录",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-e2e-1",
+      "owner": "fangzhi",
+      "name": "端到端联调第一轮：面板发起→设备状态→记录；缺陷清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-ground-stop",
+      "owner": "zhengge",
+      "name": "受控地面低速与停止复测；测量停止时间与距离；风险清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-completeness",
+      "owner": "fangzhi",
+      "name": "会话完整性/断线/未完成状态展示+测试",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-health",
+      "owner": "weihua",
+      "name": "设备健康上报（相机/模型/FPS/帧龄）与未知处理",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-e2e-2",
+      "owner": "yifan",
+      "name": "端到端第二轮+远程 STOP 未确认路径；关闭缺陷",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-demo-site",
+      "owner": "zhengge",
+      "name": "演示场地围挡/道具/标注测试素材搭建；安全检查表",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-data-lifecycle",
+      "owner": "fangzhi",
+      "name": "数据保留/清空/导出边界最小实现+测试",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-freshness",
+      "owner": "yifan",
+      "name": "面板 WS 实时状态与 2 秒过期 UNKNOWN 展示",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-class-yifan",
+      "owner": "yifan",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-class-weihua",
+      "owner": "weihua",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-class-fangzhi",
+      "owner": "fangzhi",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-class-zhengge",
+      "owner": "zhengge",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-fault-tests",
+      "owner": "weihua",
+      "name": "停止/失联/重启逐项测试（台架，不少于 10 次）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-demo-script",
+      "owner": "weihua",
+      "name": "展示流程与备用录像脚本 v1",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-walkthrough",
+      "owner": "yifan",
+      "name": "面板端到端走查与可用性问题清单+修复",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-fault-recovery",
+      "owner": "zhengge",
+      "name": "设备异常（断网/重启/相机丢失）处理与复测",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-acceptance",
+      "owner": "fangzhi",
+      "name": "端到端验收记录 v1（10 次逐项）+缺陷关闭",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-hw-defects",
+      "owner": "zhengge",
+      "name": "缓冲：关闭硬件与装配缺陷并复测",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-record-defects",
+      "owner": "fangzhi",
+      "name": "缓冲：关闭记录与数据缺陷并回归",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-interface-defects",
+      "owner": "yifan",
+      "name": "缓冲：关闭接口/停止相关缺陷并回归",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-integration-defects",
+      "owner": "weihua",
+      "name": "缓冲：集成缺陷关闭与回归",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-burndown-final",
+      "owner": "weihua",
+      "name": "日报归档/燃尽图终稿/Sprint 评审材料",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-evidence-index",
+      "owner": "fangzhi",
+      "name": "证据索引核对+同学试看反馈记录",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-enclosure-review",
+      "owner": "zhengge",
+      "name": "外壳/相机支架模型定稿与试装记录",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-release-candidate",
+      "owner": "yifan",
+      "name": "封版候选版本+复现说明",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-handover",
+      "owner": "zhengge",
+      "name": "台架、外壳与现场布置交付清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-sprint-review",
+      "owner": "fangzhi",
+      "name": "Sprint 评审汇报与回顾（功能/证据/未通过项）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-rehearsal",
+      "owner": "weihua",
+      "name": "Alpha 彩排（真人演练）+录像与备份",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-release-tag",
+      "owner": "yifan",
+      "name": "版本封存 tag+Alpha 演示脚本定稿",
+      "initial_hours": 3,
+      "added_day": 0
+    }
+  ],
+  "report_format": "compatible",
+  "workdays": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-16"
+  ],
+  "ideal_workday_count": 15,
+  "reporting_mode": "flexible",
+  "required_report_days": 10,
+  "unmapped_reports": [
+    {
+      "day": 3,
+      "member": "zhengge",
+      "path": "daily-scrum/Day03-zhengge.md",
+      "date": "2026-11-03",
+      "present": true,
+      "sha256": "e460da001b6ba283e193ea2c251fc0cc9fff5f7fc0d42a05b34090dca9c4218d",
+      "valid": false,
+      "expected_task_count": 0,
+      "submitted_task_count": null,
+      "remaining_task_count": 0,
+      "spent_task_count": 0,
+      "excluded_tasks": [],
+      "exclusion_reason": "day 与文件名不匹配"
+    }
+  ],
+  "report_schedule": [
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "entries": {
+        "weihua": {
+          "day": 1,
+          "member": "weihua",
+          "path": "daily-scrum/Day01-weihua.md",
+          "date": "2026-11-02",
+          "present": true,
+          "sha256": "b7a634f5d091dc1553d1200898ccacb4374bb3016d26c8fb7b3409f499d392c7",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "fangzhi": {
+          "day": 1,
+          "member": "fangzhi",
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "date": "2026-11-02",
+          "present": true,
+          "sha256": "18518e37af45489dc1a0eb9806b85eb974c768718f3ce2ad7d13c84063d530be",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "zhengge": {
+          "day": 1,
+          "member": "zhengge",
+          "path": "daily-scrum/Day01-zhengge.md",
+          "date": "2026-11-02",
+          "present": true,
+          "sha256": "d9f0fc1b022ebf54f5ff3f758864667aa13983e7ae7879b5c943ccb6e6602545",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "yifan": {
+          "day": 1,
+          "member": "yifan",
+          "path": "daily-scrum/Day01-yifan.md",
+          "date": "2026-11-02",
+          "present": true,
+          "sha256": "a926a8ba1e58457ca7df36588186f009d794d9b87936539734f0393db7099440",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "weihua": 1,
+        "fangzhi": 1,
+        "zhengge": 1,
+        "yifan": 1
+      },
+      "reference_day": 1,
+      "rejected_members": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "entries": {
+        "weihua": {
+          "day": 2,
+          "member": "weihua",
+          "path": "daily-scrum/Day02-weihua.md",
+          "date": "2026-11-03",
+          "present": true,
+          "sha256": "8f6a44a161bd94d0ab1d26bf9a91231ccdeec2a671f786be213af15bdf724ce6",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "fangzhi": {
+          "day": 2,
+          "member": "fangzhi",
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "date": "2026-11-03",
+          "present": true,
+          "sha256": "a823543307ea1c14c5521695160ba89ea4faa61698438cf6c40162e9f6b12809",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "zhengge": {
+          "day": 2,
+          "member": "zhengge",
+          "path": "daily-scrum/Day02-zhengge.md",
+          "date": "2026-11-03",
+          "present": true,
+          "sha256": "2bec047afbd60d1accae58c8c0ae81cf199f907c58a7cfbdab84b3fb1bf923d0",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "yifan": {
+          "day": 2,
+          "member": "yifan",
+          "path": "daily-scrum/Day02-yifan.md",
+          "date": "2026-11-03",
+          "present": true,
+          "sha256": "87b2d9df7a9fc15646ae1177f37b66a04fa12478bb361a9d9aa2a97f5672fbd7",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "weihua": 2,
+        "fangzhi": 2,
+        "zhengge": 2,
+        "yifan": 2
+      },
+      "reference_day": 2,
+      "rejected_members": [
+        "zhengge"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "entries": {
+        "weihua": {
+          "day": 3,
+          "member": "weihua",
+          "path": "daily-scrum/Day03-weihua.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "07a674cb16a3cf4c1cc672bd7a7c0efe9ed1c24ec3821e74a661b672f2c41607",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "fangzhi": {
+          "day": 3,
+          "member": "fangzhi",
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "4c2af61f904672d54fad6ddf67dd5e60c662e770ff26229e14b070586570f03f",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "yifan": {
+          "day": 3,
+          "member": "yifan",
+          "path": "daily-scrum/Day03-yifan.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "0162293ba5766af2a19e39c12507ceda4ae76061b183fba9928f4d83982b2319",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "weihua": 3,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "entries": {
+        "weihua": {
+          "day": 4,
+          "member": "weihua",
+          "path": "daily-scrum/Day04-weihua.md",
+          "date": "2026-11-05",
+          "present": true,
+          "sha256": "a94d7cb21b6bcde68ba3abd07e6a85b946bb1810a70a1d028fc0ac42889ecdb5",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 12,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
+      },
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-08",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-09",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 14,
+      "date": "2026-11-15",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    },
+    {
+      "day": 15,
+      "date": "2026-11-16",
+      "entries": {},
+      "active_days": {
+        "weihua": 4,
+        "fangzhi": 3,
+        "zhengge": 2,
+        "yifan": 3
+      },
+      "reference_day": 2,
+      "rejected_members": []
+    }
+  ],
+  "submission_progress": {
+    "required_days": 10,
+    "complete_days": 2,
+    "complete_dates": [
+      "2026-11-02",
+      "2026-11-03"
+    ],
+    "member_days": {
+      "weihua": 4,
+      "fangzhi": 3,
+      "zhengge": 2,
+      "yifan": 3
+    },
+    "deadline": "2026-11-16",
+    "deadline_reached": false,
+    "status": "in_progress"
+  },
+  "plan_sha256": "68d42c0940e1a9f33c001f93550a945b199a0bb1a760d7afb83156061bb5397d",
+  "display_series": [
+    {
+      "day": 0,
+      "date": null,
+      "ideal_remaining": 120,
+      "remaining_hours": 120,
+      "reported_spent_hours": 0.0,
+      "reported_daily_spent": 0.0,
+      "status": "baseline",
+      "remaining_quality": "baseline",
+      "spent_quality": "baseline",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 40,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "ideal_remaining": 108.0,
+      "remaining_hours": 118.5,
+      "reported_spent_hours": 21.5,
+      "reported_daily_spent": 21.5,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 48,
+      "eligible_tasks": 48,
+      "remaining_sources": [
+        {
+          "id": "S01-D01-adr",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-weihua",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-yifan",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-zhengge",
+          "hours": 0.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-infra",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-inventory",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-spec",
+          "hours": 0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-bench",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-pi-bridge",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-stop-chain",
+          "hours": 0.5,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-store",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-camera",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-detect-proto",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-panel-list",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-ws-ingest",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-bench-stop",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-detect-events",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-e2e-1",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-panel-edit",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-completeness",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-e2e-2",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-ground-stop",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-health",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-weihua",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-yifan",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-zhengge",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-data-lifecycle",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-demo-site",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-fault-tests",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-freshness",
+          "hours": 2,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-acceptance",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-demo-script",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-fault-recovery",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-walkthrough",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-hw-defects",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-integration-defects",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-interface-defects",
+          "hours": 2,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-record-defects",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-burndown-final",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-enclosure-review",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-evidence-index",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-release-candidate",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-handover",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-rehearsal",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-release-tag",
+          "hours": 3,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-sprint-review",
+          "hours": 3.0,
+          "observed_day": 1,
+          "path": "daily-scrum/Day01-fangzhi.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "ideal_remaining": 96.0,
+      "remaining_hours": 108.0,
+      "reported_spent_hours": 35.0,
+      "reported_daily_spent": 13.5,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 48,
+      "eligible_tasks": 48,
+      "remaining_sources": [
+        {
+          "id": "S01-D01-adr",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-weihua",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-yifan",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-zhengge",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-infra",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-inventory",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-spec",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-bench",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-pi-bridge",
+          "hours": 1,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-stop-chain",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-store",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-camera",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-detect-proto",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-panel-list",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-ws-ingest",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-bench-stop",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-detect-events",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-e2e-1",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-panel-edit",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-completeness",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-e2e-2",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-ground-stop",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-health",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-weihua",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-yifan",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-zhengge",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-data-lifecycle",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-demo-site",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-fault-tests",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-freshness",
+          "hours": 2,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-acceptance",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-demo-script",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-fault-recovery",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-walkthrough",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-hw-defects",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-integration-defects",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-interface-defects",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-record-defects",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-burndown-final",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-enclosure-review",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-evidence-index",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-release-candidate",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-handover",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-rehearsal",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-release-tag",
+          "hours": 3,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-sprint-review",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-fangzhi.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "ideal_remaining": 96.0,
+      "remaining_hours": 104.5,
+      "reported_spent_hours": 43.0,
+      "reported_daily_spent": 8.0,
+      "status": "unverified",
+      "remaining_quality": "estimated",
+      "spent_quality": "partial",
+      "carried_tasks": [
+        "S01-D01-class-zhengge",
+        "S01-D01-inventory",
+        "S01-D02-bench",
+        "S01-D03-camera",
+        "S01-D04-bench-stop",
+        "S01-D05-ground-stop",
+        "S01-D06-class-zhengge",
+        "S01-D06-demo-site",
+        "S01-D07-fault-recovery",
+        "S01-D08-hw-defects",
+        "S01-D09-enclosure-review",
+        "S01-D10-handover"
+      ],
+      "observed_remaining_tasks": 36,
+      "eligible_tasks": 48,
+      "remaining_sources": [
+        {
+          "id": "S01-D01-adr",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-weihua",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-yifan",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-zhengge",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-infra",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-inventory",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-spec",
+          "hours": 0.5,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-bench",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D02-pi-bridge",
+          "hours": 1,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-stop-chain",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-store",
+          "hours": 0.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-camera",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D03-detect-proto",
+          "hours": 1,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-panel-list",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-ws-ingest",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-bench-stop",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D04-detect-events",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-e2e-1",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-panel-edit",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-completeness",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-e2e-2",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D05-ground-stop",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D05-health",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-weihua",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-yifan",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-zhengge",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-data-lifecycle",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-demo-site",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-fault-tests",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-freshness",
+          "hours": 2,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-acceptance",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-demo-script",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-fault-recovery",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D07-walkthrough",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-hw-defects",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D08-integration-defects",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-interface-defects",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-record-defects",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-burndown-final",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-enclosure-review",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D09-evidence-index",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-release-candidate",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-handover",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D10-rehearsal",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-release-tag",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-sprint-review",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": [
+        "zhengge"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "ideal_remaining": 96.0,
+      "remaining_hours": 102.5,
+      "reported_spent_hours": 46.0,
+      "reported_daily_spent": 3.0,
+      "status": "unverified",
+      "remaining_quality": "estimated",
+      "spent_quality": "partial",
+      "carried_tasks": [
+        "S01-D01-adr",
+        "S01-D01-class-fangzhi",
+        "S01-D01-class-yifan",
+        "S01-D01-class-zhengge",
+        "S01-D01-inventory",
+        "S01-D01-spec",
+        "S01-D02-bench",
+        "S01-D02-stop-chain",
+        "S01-D02-store",
+        "S01-D03-camera",
+        "S01-D03-panel-list",
+        "S01-D03-ws-ingest",
+        "S01-D04-bench-stop",
+        "S01-D04-e2e-1",
+        "S01-D04-panel-edit",
+        "S01-D05-completeness",
+        "S01-D05-e2e-2",
+        "S01-D05-ground-stop",
+        "S01-D06-class-fangzhi",
+        "S01-D06-class-yifan",
+        "S01-D06-class-zhengge",
+        "S01-D06-data-lifecycle",
+        "S01-D06-demo-site",
+        "S01-D06-freshness",
+        "S01-D07-acceptance",
+        "S01-D07-fault-recovery",
+        "S01-D07-walkthrough",
+        "S01-D08-hw-defects",
+        "S01-D08-interface-defects",
+        "S01-D08-record-defects",
+        "S01-D09-enclosure-review",
+        "S01-D09-evidence-index",
+        "S01-D09-release-candidate",
+        "S01-D10-handover",
+        "S01-D10-release-tag",
+        "S01-D10-sprint-review"
+      ],
+      "observed_remaining_tasks": 12,
+      "eligible_tasks": 48,
+      "remaining_sources": [
+        {
+          "id": "S01-D01-adr",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-class-weihua",
+          "hours": 0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-class-yifan",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-class-zhengge",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-infra",
+          "hours": 0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D01-inventory",
+          "hours": 0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D01-spec",
+          "hours": 0.5,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D02-bench",
+          "hours": 0.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D02-pi-bridge",
+          "hours": 1,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D02-stop-chain",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D02-store",
+          "hours": 0.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D03-camera",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D03-detect-proto",
+          "hours": 1,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D03-panel-list",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D03-ws-ingest",
+          "hours": 4,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D04-bench-stop",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D04-detect-events",
+          "hours": 1,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D04-e2e-1",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D04-panel-edit",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D05-completeness",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D05-e2e-2",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D05-ground-stop",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D05-health",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-fangzhi",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-class-weihua",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-class-yifan",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-class-zhengge",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-data-lifecycle",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-demo-site",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D06-fault-tests",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D06-freshness",
+          "hours": 2,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D07-acceptance",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D07-demo-script",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D07-fault-recovery",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D07-walkthrough",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D08-hw-defects",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D08-integration-defects",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D08-interface-defects",
+          "hours": 0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D08-record-defects",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D09-burndown-final",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D09-enclosure-review",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D09-evidence-index",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D09-release-candidate",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D10-handover",
+          "hours": 3.0,
+          "observed_day": 2,
+          "path": "daily-scrum/Day02-zhengge.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D10-rehearsal",
+          "hours": 3.0,
+          "observed_day": 4,
+          "path": "daily-scrum/Day04-weihua.md",
+          "carried": false
+        },
+        {
+          "id": "S01-D10-release-tag",
+          "hours": 3,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-yifan.md",
+          "carried": true
+        },
+        {
+          "id": "S01-D10-sprint-review",
+          "hours": 3.0,
+          "observed_day": 3,
+          "path": "daily-scrum/Day03-fangzhi.md",
+          "carried": true
+        }
+      ],
+      "excluded_members": [
+        "fangzhi",
+        "zhengge",
+        "yifan"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-08",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-09",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 14,
+      "date": "2026-11-15",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    },
+    {
+      "day": 15,
+      "date": "2026-11-16",
+      "ideal_remaining": null,
+      "remaining_hours": null,
+      "reported_spent_hours": null,
+      "reported_daily_spent": null,
+      "status": "future",
+      "remaining_quality": "future",
+      "spent_quality": "future",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 0,
+      "eligible_tasks": 48,
+      "remaining_sources": [],
+      "excluded_members": []
+    }
+  ],
+  "display_reports": [
+    {
+      "day": 3,
+      "member": "zhengge",
+      "path": "daily-scrum/Day03-zhengge.md",
+      "date": "2026-11-03",
+      "present": true,
+      "sha256": "e460da001b6ba283e193ea2c251fc0cc9fff5f7fc0d42a05b34090dca9c4218d",
+      "valid": false,
+      "expected_task_count": 0,
+      "submitted_task_count": null,
+      "remaining_task_count": 0,
+      "spent_task_count": 0,
+      "excluded_tasks": [],
+      "exclusion_reason": "day 与文件名不匹配"
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "weihua",
+      "path": "daily-scrum/Day01-weihua.md",
+      "present": true,
+      "sha256": "b7a634f5d091dc1553d1200898ccacb4374bb3016d26c8fb7b3409f499d392c7",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "fangzhi",
+      "path": "daily-scrum/Day01-fangzhi.md",
+      "present": true,
+      "sha256": "18518e37af45489dc1a0eb9806b85eb974c768718f3ce2ad7d13c84063d530be",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "zhengge",
+      "path": "daily-scrum/Day01-zhengge.md",
+      "present": true,
+      "sha256": "d9f0fc1b022ebf54f5ff3f758864667aa13983e7ae7879b5c943ccb6e6602545",
+      "valid": false,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 1,
+      "date": "2026-11-02",
+      "member": "yifan",
+      "path": "daily-scrum/Day01-yifan.md",
+      "present": true,
+      "sha256": "a926a8ba1e58457ca7df36588186f009d794d9b87936539734f0393db7099440",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "weihua",
+      "path": "daily-scrum/Day02-weihua.md",
+      "present": true,
+      "sha256": "8f6a44a161bd94d0ab1d26bf9a91231ccdeec2a671f786be213af15bdf724ce6",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "fangzhi",
+      "path": "daily-scrum/Day02-fangzhi.md",
+      "present": true,
+      "sha256": "a823543307ea1c14c5521695160ba89ea4faa61698438cf6c40162e9f6b12809",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "zhengge",
+      "path": "daily-scrum/Day02-zhengge.md",
+      "present": true,
+      "sha256": "2bec047afbd60d1accae58c8c0ae81cf199f907c58a7cfbdab84b3fb1bf923d0",
+      "valid": false,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 2,
+      "date": "2026-11-03",
+      "member": "yifan",
+      "path": "daily-scrum/Day02-yifan.md",
+      "present": true,
+      "sha256": "87b2d9df7a9fc15646ae1177f37b66a04fa12478bb361a9d9aa2a97f5672fbd7",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "weihua",
+      "path": "daily-scrum/Day03-weihua.md",
+      "present": true,
+      "sha256": "07a674cb16a3cf4c1cc672bd7a7c0efe9ed1c24ec3821e74a661b672f2c41607",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "fangzhi",
+      "path": "daily-scrum/Day03-fangzhi.md",
+      "present": true,
+      "sha256": "4c2af61f904672d54fad6ddf67dd5e60c662e770ff26229e14b070586570f03f",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "yifan",
+      "path": "daily-scrum/Day03-yifan.md",
+      "present": true,
+      "sha256": "0162293ba5766af2a19e39c12507ceda4ae76061b183fba9928f4d83982b2319",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "member": "weihua",
+      "path": "daily-scrum/Day04-weihua.md",
+      "present": true,
+      "sha256": "a94d7cb21b6bcde68ba3abd07e6a85b946bb1810a70a1d028fc0ac42889ecdb5",
+      "valid": true,
+      "expected_task_count": 12,
+      "submitted_task_count": 12,
+      "remaining_task_count": 12,
+      "spent_task_count": 12,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    }
+  ],
+  "display_tasks": [
+    {
+      "id": "S01-D01-inventory",
+      "owner": "zhengge",
+      "name": "整机与场地基线盘点：开箱清点 Raspbot V2 套件并记录型号/序列号/缺件；检查供电（电池电压、充电器）、相机与云台安装位、现有接线与线束；采集系统版本与环境命令输出；对照 docs/hardware 既有文档逐项核对并列出不一致项；产出 docs/evidence/S01/D01/kit-inventory.md 与现场照片",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-spec",
+      "owner": "fangzhi",
+      "name": "F01「一局会话与记录」功能规格 DRAFT：定义会话/事件字段（来源、时间、观察覆盖、未知、确认、纠正、删除）与数据来源；明确记录、面板展示与删除/纠正边界；对照 T1 会话提案给出取舍；写一页验收条件（DoD）；提交 docs/design/functions/F01-session-record.md 并附交叉评审意见",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-infra",
+      "owner": "weihua",
+      "name": "Sprint 基础设施就绪：落地日报模板与字段口径；提供燃尽图/看板脚本与 --check；写清 README 与助教抓取路径；约定 backlog 状态维护流程；生成首版 docs/burndown/index.html 与看板，核对 40 条任务/120h、缺失日报与彩排数据（--demo）；完成 Scrum Master 首图",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-adr",
+      "owner": "yifan",
+      "name": "设备接入与停止路径 ADR 草案：论证复用设备 WS 还是新建通道；列 Pi 能力清单与限制；定义 STOP 语义（谁触发、停什么、如何确认）；给出台架方案与硬件不可用时的降级路径；提交 docs/design/decisions/ADR-S01-01.md 并列出待实物确认清单（D2 核对）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D01-class-yifan",
+      "owner": "yifan",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D01-class-weihua",
+      "owner": "weihua",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D01-class-fangzhi",
+      "owner": "fangzhi",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D01-class-zhengge",
+      "owner": "zhengge",
+      "name": "11-02 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D02-bench",
+      "owner": "zhengge",
+      "name": "架空格架与相机/云台支架搭建：供电/固定/接线图与风险清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D02-store",
+      "owner": "fangzhi",
+      "name": "后端会话与事件存储（SQLite 迁移/去重键/完整性标记）+单测",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D02-pi-bridge",
+      "owner": "weihua",
+      "name": "Pi 端设备程序：连后端设备 WS/hello 能力/心跳与状态上报",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D02-stop-chain",
+      "owner": "yifan",
+      "name": "停止链路实现：后端 STOP→设备停止→stop_ack（先用模拟设备联调）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-camera",
+      "owner": "zhengge",
+      "name": "相机与云台实际取流/曝光/视野覆盖测试",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-panel-list",
+      "owner": "yifan",
+      "name": "面板会话列表与详情只读接口+前端展示",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-detect-proto",
+      "owner": "weihua",
+      "name": "Pi 端相机取帧与检测原型（机上或主机回退二选一）并记录 FPS/帧龄",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D03-ws-ingest",
+      "owner": "fangzhi",
+      "name": "后端 WS 事件接入（seq 去重/跳号缺口/未完成会话）+F01 冻结评审",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-bench-stop",
+      "owner": "zhengge",
+      "name": "台架运动与实体 STOP 可用性验证（架空）+停止响应测量",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-panel-edit",
+      "owner": "yifan",
+      "name": "面板确认/纠正/删除+来源与未知状态展示",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-detect-events",
+      "owner": "weihua",
+      "name": "检测事件与设备健康上报接入后端+误检漏检样本记录",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D04-e2e-1",
+      "owner": "fangzhi",
+      "name": "端到端联调第一轮：面板发起→设备状态→记录；缺陷清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-ground-stop",
+      "owner": "zhengge",
+      "name": "受控地面低速与停止复测；测量停止时间与距离；风险清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-completeness",
+      "owner": "fangzhi",
+      "name": "会话完整性/断线/未完成状态展示+测试",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-health",
+      "owner": "weihua",
+      "name": "设备健康上报（相机/模型/FPS/帧龄）与未知处理",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D05-e2e-2",
+      "owner": "yifan",
+      "name": "端到端第二轮+远程 STOP 未确认路径；关闭缺陷",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-demo-site",
+      "owner": "zhengge",
+      "name": "演示场地围挡/道具/标注测试素材搭建；安全检查表",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-data-lifecycle",
+      "owner": "fangzhi",
+      "name": "数据保留/清空/导出边界最小实现+测试",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-freshness",
+      "owner": "yifan",
+      "name": "面板 WS 实时状态与 2 秒过期 UNKNOWN 展示",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D06-class-yifan",
+      "owner": "yifan",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-class-weihua",
+      "owner": "weihua",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-class-fangzhi",
+      "owner": "fangzhi",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-class-zhengge",
+      "owner": "zhengge",
+      "name": "11-09 课程 3h（助教要求计入燃尽图）：上课，整理课堂记录",
+      "initial_hours": 3,
+      "added_day": 1,
+      "scope_reason": "11-02 助教要求课程时间计入燃尽图：每人每次课 3h，两周两次（11-02、11-09）"
+    },
+    {
+      "id": "S01-D06-fault-tests",
+      "owner": "weihua",
+      "name": "停止/失联/重启逐项测试（台架，不少于 10 次）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-demo-script",
+      "owner": "weihua",
+      "name": "展示流程与备用录像脚本 v1",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-walkthrough",
+      "owner": "yifan",
+      "name": "面板端到端走查与可用性问题清单+修复",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-fault-recovery",
+      "owner": "zhengge",
+      "name": "设备异常（断网/重启/相机丢失）处理与复测",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D07-acceptance",
+      "owner": "fangzhi",
+      "name": "端到端验收记录 v1（10 次逐项）+缺陷关闭",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-hw-defects",
+      "owner": "zhengge",
+      "name": "缓冲：关闭硬件与装配缺陷并复测",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-record-defects",
+      "owner": "fangzhi",
+      "name": "缓冲：关闭记录与数据缺陷并回归",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-interface-defects",
+      "owner": "yifan",
+      "name": "缓冲：关闭接口/停止相关缺陷并回归",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D08-integration-defects",
+      "owner": "weihua",
+      "name": "缓冲：集成缺陷关闭与回归",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-burndown-final",
+      "owner": "weihua",
+      "name": "日报归档/燃尽图终稿/Sprint 评审材料",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-evidence-index",
+      "owner": "fangzhi",
+      "name": "证据索引核对+同学试看反馈记录",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-enclosure-review",
+      "owner": "zhengge",
+      "name": "外壳/相机支架模型定稿与试装记录",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D09-release-candidate",
+      "owner": "yifan",
+      "name": "封版候选版本+复现说明",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-handover",
+      "owner": "zhengge",
+      "name": "台架、外壳与现场布置交付清单",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-sprint-review",
+      "owner": "fangzhi",
+      "name": "Sprint 评审汇报与回顾（功能/证据/未通过项）",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-rehearsal",
+      "owner": "weihua",
+      "name": "Alpha 彩排（真人演练）+录像与备份",
+      "initial_hours": 3,
+      "added_day": 0
+    },
+    {
+      "id": "S01-D10-release-tag",
+      "owner": "yifan",
+      "name": "版本封存 tag+Alpha 演示脚本定稿",
+      "initial_hours": 3,
+      "added_day": 0
+    }
+  ],
+  "display_plan_verified": true,
+  "display_notes": [],
+  "fetched_at_utc": "2026-11-05T09:10:06.341632+00:00",
+  "generated_at_utc": "2026-11-05T09:10:09.710833+00:00"
+}
