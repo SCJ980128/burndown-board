@@ -11,6 +11,8 @@ warning,BLOCKED,3,A,T08,daily-scrum/Day03-A.md,本次试装未装电池且未插
 error,INVALID_REPORT,3,A,,daily-scrum/Day03-A.md,T23: 提供证据时必须说明验证方式
 error,INVALID_REPORT,3,B,,daily-scrum/Day03-B.md,T22: 提供证据时必须说明验证方式
 info,PARTIAL_SUBMISSION,,C,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
-info,PARTIAL_SUBMISSION,,A,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,BLOCKED,4,A,T05,daily-scrum/Day04-A.md,等待发票抬头后提交重新设计的前板订单。
+warning,BLOCKED,4,A,T08,daily-scrum/Day04-A.md,其他配件未到货，等待齐备后试装及检查。
+error,INVALID_REPORT,4,A,,daily-scrum/Day04-A.md,T23: 提供证据时必须说明验证方式
 error,INVALID_REPORT,4,B,,daily-scrum/Day04-B.md,T22: 提供证据时必须说明验证方式
 info,PARTIAL_SUBMISSION,,C,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
