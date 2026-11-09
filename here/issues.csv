@@ -16,3 +16,7 @@ warning,BLOCKED,4,A,T08,daily-scrum/Day04-A.md,其他配件未到货，等待齐
 error,INVALID_REPORT,4,A,,daily-scrum/Day04-A.md,T23: 提供证据时必须说明验证方式
 error,INVALID_REPORT,4,B,,daily-scrum/Day04-B.md,T22: 提供证据时必须说明验证方式
 info,PARTIAL_SUBMISSION,,C,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,PARTIAL_SUBMISSION,,A,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,BLOCKED,5,B,T13,daily-scrum/Day05-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+error,INVALID_REPORT,5,B,,daily-scrum/Day05-B.md,T22: 提供证据时必须说明验证方式
+info,PARTIAL_SUBMISSION,,C,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。

@@ -6,6 +6,8 @@ tuantuan,error,INVALID_PLAN,,,,,新增任务须说明 scope_reason
 tuantuan,warning,PLOT_UNVERIFIED_PLAN,,,,,计划未通过严格核验，但任务编号、负责人、初估和纳入日可读；按原值绘图，基线待复核。
 fallrainme,warning,UNEXPECTED_FILE,,,,daily-scrum/Day01-T.md,文件命名或成员代号不符合配置；不参与统计。
 fallrainme,error,REPORT_SCHEDULE,2,B,,daily-scrum/Day02-B.md,JSON 格式错误（第 3 行）：Expecting value
+fallrainme,error,REPORT_SCHEDULE,3,B,,daily-scrum/Day03-B.md,JSON 格式错误（第 3 行）：Expecting value
+fallrainme,error,REPORT_SCHEDULE,4,B,,daily-scrum/Day04-B.md,JSON 格式错误（第 3 行）：Expecting value
 fallrainme,warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
 fallrainme,warning,TASK_TOO_LARGE,,,D03-B1,,原始预估超过 4h，按课程要求应继续拆分。
 fallrainme,warning,TASK_TOO_LARGE,,,D06-B1,,原始预估超过 4h，按课程要求应继续拆分。
@@ -27,10 +29,32 @@ fallrainme,warning,FORMAT_MISSING_MARKER,3,A,,daily-scrum/Day03-A.md,未写 scru
 fallrainme,warning,FORMAT_BARE_JSON,3,A,,daily-scrum/Day03-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
 fallrainme,error,INVALID_REPORT,3,A,,daily-scrum/Day03-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
 fallrainme,info,PARTIAL_SUBMISSION,,B,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
-fallrainme,info,PARTIAL_SUBMISSION,,C,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
+fallrainme,warning,FORMAT_MISSING_MARKER,3,C,,daily-scrum/Day03-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+fallrainme,warning,FORMAT_BARE_JSON,3,C,,daily-scrum/Day03-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+fallrainme,error,INVALID_REPORT,3,C,,daily-scrum/Day03-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+fallrainme,warning,FORMAT_MISSING_MARKER,4,A,,daily-scrum/Day04-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+fallrainme,warning,FORMAT_BARE_JSON,4,A,,daily-scrum/Day04-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+fallrainme,error,INVALID_REPORT,4,A,,daily-scrum/Day04-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+fallrainme,info,PARTIAL_SUBMISSION,,B,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+fallrainme,warning,FORMAT_MISSING_MARKER,4,C,,daily-scrum/Day04-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+fallrainme,warning,FORMAT_BARE_JSON,4,C,,daily-scrum/Day04-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+fallrainme,error,INVALID_REPORT,4,C,,daily-scrum/Day04-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+fallrainme,warning,FORMAT_MISSING_MARKER,5,A,,daily-scrum/Day05-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+fallrainme,warning,FORMAT_BARE_JSON,5,A,,daily-scrum/Day05-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+fallrainme,error,INVALID_REPORT,5,A,,daily-scrum/Day05-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+fallrainme,info,PARTIAL_SUBMISSION,,B,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+fallrainme,warning,FORMAT_MISSING_MARKER,5,C,,daily-scrum/Day05-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+fallrainme,warning,FORMAT_BARE_JSON,5,C,,daily-scrum/Day05-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+fallrainme,error,INVALID_REPORT,5,C,,daily-scrum/Day05-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
 fallrainme,warning,PLOT_EXCLUDED_VALUES,1,C,,daily-scrum/Day01-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
 fallrainme,warning,PLOT_EXCLUDED_VALUES,2,C,,daily-scrum/Day02-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+fallrainme,warning,PLOT_EXCLUDED_VALUES,3,C,,daily-scrum/Day03-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+fallrainme,warning,PLOT_EXCLUDED_VALUES,4,C,,daily-scrum/Day04-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+fallrainme,warning,PLOT_EXCLUDED_VALUES,5,C,,daily-scrum/Day05-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
 littlewells,warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+littlewells,info,REMAINING_INCREASE,5,A,YIYOU-A-05,Sprint/daily-scrum/Day05-A.md,2h → 5h：新增5h兼容与异步状态验证；投入2h后任务剩余由2h升到5h，个人剩余12→15h、团队24→25h，触发预警。
+littlewells,warning,REMAINING_OVER_2X,5,A,YIYOU-A-05,Sprint/daily-scrum/Day05-A.md,当前剩余严格大于原始预估的 2 倍，需团队讨论预案。
+littlewells,warning,BLOCKED,5,A,YIYOU-A-05,Sprint/daily-scrum/Day05-A.md,音色目标模型绑定、异步状态和失败恢复；B 提供同版本整机协助复核。
 deskagent,warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
 here,error,REPORT_SCHEDULE,2,C,,daily-scrum/Day02-C.md,day 与文件名不匹配
 here,warning,UNEXPECTED_FILE,,,,daily-scrum/_TEMPLATE.md,文件命名或成员代号不符合配置；不参与统计。
@@ -49,6 +73,10 @@ here,warning,BLOCKED,4,A,T08,daily-scrum/Day04-A.md,其他配件未到货，等�
 here,error,INVALID_REPORT,4,A,,daily-scrum/Day04-A.md,T23: 提供证据时必须说明验证方式
 here,error,INVALID_REPORT,4,B,,daily-scrum/Day04-B.md,T22: 提供证据时必须说明验证方式
 here,info,PARTIAL_SUBMISSION,,C,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+here,info,PARTIAL_SUBMISSION,,A,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+here,warning,BLOCKED,5,B,T13,daily-scrum/Day05-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+here,error,INVALID_REPORT,5,B,,daily-scrum/Day05-B.md,T22: 提供证据时必须说明验证方式
+here,info,PARTIAL_SUBMISSION,,C,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
 kitbot,error,REPORT_SCHEDULE,3,zhengge,,daily-scrum/Day03-zhengge.md,day 与文件名不匹配
 kitbot,error,REPORT_SCHEDULE,4,zhengge,,daily-scrum/Day04-zhengge.md,day 与文件名不匹配
 kitbot,error,REPORT_SCHEDULE,5,zhengge,,daily-scrum/Day05-zhengge.md,day 与文件名不匹配
@@ -74,11 +102,6 @@ kitbot,warning,BLOCKED,2,yifan,S01-D04-panel-edit,daily-scrum/Day02-yifan.md,依
 kitbot,warning,BLOCKED,2,yifan,S01-D08-interface-defects,daily-scrum/Day02-yifan.md,电脑上已回归通过（SIMULATED）；真车上的正确性要等车上换成新版整机程序后复测（需要确认的事-1102 第 2 条，weihua、zhengge）；放音移出设备主循环等 weihua 定（第 1 条第 3 点）
 kitbot,warning,BLOCKED,3,weihua,S01-D02-pi-bridge,daily-scrum/Day03-weihua.md,状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，需本人重新部署后补 pi-bridge.log，无他人依赖
 kitbot,warning,BLOCKED,3,weihua,S01-D03-detect-proto,daily-scrum/Day03-weihua.md,FPS/帧龄未测：15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通（地址略），需本人下次上真车补测；另需复跑一次确认不框人脸（均为本人 D04 前完成，无他人依赖）
-kitbot,info,REMAINING_INCREASE,3,fangzhi,S01-D01-spec,daily-scrum/Day03-fangzhi.md,0h → 0.5h：Day02的done缺少约定规格文件，今日补齐DRAFT及评审记录后改回doing；剩余0.5h为本人审阅的暂估，AI起草时间不计本人投入。
-kitbot,warning,BLOCKED,3,fangzhi,S01-D01-spec,daily-scrum/Day03-fangzhi.md,需fangzhi在11-05 09:30站会前核对规格并确认验收；AI技术审查不替代本人验证。
-kitbot,warning,BLOCKED,3,fangzhi,S01-D01-class-fangzhi,daily-scrum/Day03-fangzhi.md,11-02到课与课堂记录仍待fangzhi在下次站会核对，沿用Day02的todo/剩余3h，不把历史课程时间补计今天。
-kitbot,info,REMAINING_INCREASE,3,fangzhi,S01-D03-ws-ingest,daily-scrum/Day03-fangzhi.md,3h → 4h：本人确认今日总投入2h，统一记入D03；剩余由计划3h上调为暂估4h：适配/接线约2h、结构及中断测试约1h、协同冻结约1h。未根据已投入简单扣减；实际测试后更新估计。
-kitbot,warning,BLOCKED,3,fangzhi,S01-D03-ws-ingest,daily-scrum/Day03-fangzhi.md,尚缺WS适配/接线、结构与异常路径测试及团队冻结；需fangzhi推进，并与yifan/weihua在11-05 09:30站会前核对事件映射、接口和F04路线。
 kitbot,info,PARTIAL_SUBMISSION,,zhengge,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
 kitbot,warning,BLOCKED,3,yifan,S01-D01-adr,daily-scrum/Day03-yifan.md,ADR 里要在真车上核对的 12 项（电机编号和转向、相机、小屏等）还没核：要等车上换成最新的整机程序（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）、zhengge 把整车盘点记录推上来（第 6 条），以及 11-05 的架空测试（车垫高、轮子离地试电机和停止）；ADR 里问组员的问题 1、4 yifan 11-04 已先定（第 3、8 条），fangzhi、weihua 可改
 kitbot,warning,BLOCKED,3,yifan,S01-D04-panel-edit,daily-scrum/Day03-yifan.md,确认、纠正、删除要用的后端接口，组里有两套草稿、只能做一套；yifan 11-04 先定用 weihua 的 /api/observations（docs/impl/notes/需要确认的事-1102.md 第 14 条），fangzhi、weihua 有不同意见请 11-05 中午 D04 开工以前回
@@ -87,11 +110,6 @@ kitbot,warning,BLOCKED,3,yifan,S01-D08-interface-defects,daily-scrum/Day03-yifan
 kitbot,warning,BLOCKED,4,weihua,S01-D02-pi-bridge,daily-scrum/Day04-weihua.md,状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，需本人重新部署后补 pi-bridge.log，无他人依赖
 kitbot,warning,BLOCKED,4,weihua,S01-D03-detect-proto,daily-scrum/Day04-weihua.md,FPS/帧龄未测：D03 当天 15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通（地址略），需本人下次上真车补测；另需复跑一次确认不框人脸（均为本人 D05 前完成，无他人依赖）
 kitbot,warning,BLOCKED,4,weihua,S01-D04-detect-events,daily-scrum/Day04-weihua.md,真车 FPS/帧龄、误检/漏检样本未测；后端完整 pytest 与 test_device_events_api.py 未跑（本机没有 .venv，依赖装不上）；需本人下次上真车并装后端环境，D05 前完成，无他人依赖
-kitbot,warning,BLOCKED,4,fangzhi,S01-D01-spec,daily-scrum/Day04-fangzhi.md,需fangzhi与yifan/weihua在D05联调前完成规格与当前产品接口的交叉核对，确认冻结口径。
-kitbot,warning,BLOCKED,4,fangzhi,S01-D01-class-fangzhi,daily-scrum/Day04-fangzhi.md,沿用Day03待核对项，由fangzhi补充11-02到课及课堂记录；不在本日报虚补历史课程时间。
-kitbot,warning,BLOCKED,4,fangzhi,S01-D02-store,daily-scrum/Day04-fangzhi.md,无；此完成状态仅承接已验证的存储任务，不扩展为真机或整机验收。
-kitbot,warning,BLOCKED,4,fangzhi,S01-D03-ws-ingest,daily-scrum/Day04-fangzhi.md,fangzhi与yifan/weihua在D05前核对设备实际版本、消息映射及F01冻结；隔离测试不能替代设备重新部署后的实测。
-kitbot,warning,BLOCKED,4,fangzhi,S01-D04-e2e-1,daily-scrum/Day04-fangzhi.md,待真车恢复在线后，fangzhi与weihua/zhengge、yifan在下一轮联调前核对部署、状态和停止反馈；软件通过尚不满足整机联调验收。
 kitbot,warning,BLOCKED,4,fangzhi,S01-D05-completeness,daily-scrum/Day04-fangzhi.md,需在D05结合第一轮联调结果继续核对完整性、缺口和未结束会话展示。
 kitbot,warning,BLOCKED,4,fangzhi,S01-D06-data-lifecycle,daily-scrum/Day04-fangzhi.md,fangzhi在D06收口前核对导出、保留期限及删除失败重试的最终证据，不把本次部分软件检查算作全部完成。
 kitbot,warning,BLOCKED,4,fangzhi,S01-D06-class-fangzhi,daily-scrum/Day04-fangzhi.md,无；尚未到课程日期。
@@ -104,6 +122,30 @@ kitbot,warning,BLOCKED,4,yifan,S01-D01-adr,daily-scrum/Day04-yifan.md,ADR 里要
 kitbot,warning,BLOCKED,4,yifan,S01-D04-panel-edit,daily-scrum/Day04-yifan.md,接口走的是 H，DECISION-004 还等 fangzhi 评审后端（docs/impl/notes/需要确认的事-1102.md 第 14 条、“现在等谁”第四件）；评审要改字段或路由，代码和面板跟着改。设备候选入库桥、回顾（摘要、核对、导出）不在 D04
 kitbot,warning,BLOCKED,4,yifan,S01-D05-e2e-2,daily-scrum/Day04-yifan.md,要先做完 fangzhi 的第一轮联调（S01-D04-e2e-1）；在真车上测的部分，车上还是 11-02 的部署加本地补丁，要先重新装（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）；车上的红外遥控补丁绕过了允许和租约，装以前先关掉
 kitbot,warning,BLOCKED,4,yifan,S01-D08-interface-defects,daily-scrum/Day04-yifan.md,电脑上用模拟的车测过了（SIMULATED）；真车上还要再测一遍“按停止 → 车停下 → 回确认”、实时画面和设备事件，车上还是 11-02 的部署加本地补丁，要先重新装（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）
+kitbot,warning,BLOCKED,5,weihua,S01-D02-pi-bridge,daily-scrum/Day05-weihua.md,状态上报与面板在线截图未完成（剩 1h）；车上仍为 11-02 旧版部署，11-06 没上真车，需本人下次上真车重新部署后补 pi-bridge.log，无他人依赖
+kitbot,warning,BLOCKED,5,weihua,S01-D03-detect-proto,daily-scrum/Day05-weihua.md,FPS/帧龄未测：D03 当天 15:30 后车的内网 IP 变了、本网段扫不到、20:30 重试仍不通；11-06 也没上真车。需本人下次上真车补测；另需复跑一次确认不框人脸（无他人依赖）
+kitbot,warning,BLOCKED,5,weihua,S01-D04-detect-events,daily-scrum/Day05-weihua.md,真车 FPS/帧龄、误检/漏检样本未测；后端完整 pytest 与 test_device_events_api.py 未跑（本机 pytest 临时目录在沙箱里不可用）；需本人下次上真车并换环境补跑，无他人依赖
+kitbot,warning,BLOCKED,5,fangzhi,S01-D06-data-lifecycle,daily-scrum/Day05-fangzhi.md,需fangzhi在D06收口前核对导出、保留期限及删除失败重试的最终证据。
+kitbot,warning,BLOCKED,5,fangzhi,S01-D06-class-fangzhi,daily-scrum/Day05-fangzhi.md,无；待11-09上课并整理课堂记录。
+kitbot,warning,BLOCKED,5,fangzhi,S01-D07-acceptance,daily-scrum/Day05-fangzhi.md,需fangzhi与相关同学在D07验收前准备真机及联调证据，再逐项记录验收结果。
+kitbot,warning,BLOCKED,5,fangzhi,S01-D08-record-defects,daily-scrum/Day05-fangzhi.md,需fangzhi在本项收口前结合回归及设备联调结果整理可检查的缺陷关闭证据。
+kitbot,warning,BLOCKED,5,fangzhi,S01-D09-evidence-index,daily-scrum/Day05-fangzhi.md,无；待fangzhi在D09整理证据及真实同学反馈。
+kitbot,warning,BLOCKED,5,fangzhi,S01-D10-sprint-review,daily-scrum/Day05-fangzhi.md,无；待Sprint评审时汇总功能、证据与未通过项。
+kitbot,info,PARTIAL_SUBMISSION,,zhengge,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+kitbot,warning,BLOCKED,5,yifan,S01-D01-adr,daily-scrum/Day05-yifan.md,ADR 里要在真车上核对的 12 项还没逐项对完：电机编号和前进方向 fangzhi 11-05 在车上核对过（记录在 zfz/backend 的 docs/impl/bench/2026-11-05-raspbot-motion.md），相机取帧 weihua 11-06 量过（docs/evidence/S01/D03/camera-measure.json）；其余等架空测试（S01-D04-bench-stop）和 zhengge 的整车盘点记录（docs/impl/notes/需要确认的事-1102.md 第 6 条）；ADR 里问组员的问题 1、4 yifan 11-04 已先定（第 3、8 条），fangzhi、weihua 可改
+kitbot,warning,BLOCKED,5,yifan,S01-D04-panel-edit,daily-scrum/Day05-yifan.md,接口走的是 H，DECISION-004 还等 fangzhi 评审后端（docs/impl/notes/需要确认的事-1102.md 第 14 条、“现在等谁”第四件）；11-07 看到 fangzhi 的 zfz/backend 走的是 /api/observations，两套后端合的时候要定留哪套（第 19 条）。设备候选入库桥、回顾（摘要、核对、导出）不在 D04
+kitbot,warning,BLOCKED,5,yifan,S01-D05-e2e-2,daily-scrum/Day05-yifan.md,真车上的停止、断网放进 weihua 的 S01-D06-fault-tests（架空，停止、失联、重启逐项不少于 10 次，本来就依赖这一项）；车上 11-06 装的是 func-design@783c3d9（weihua），还没有 11-07 的放语音修改和 fangzhi 的停车零值重写，要再装一次（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）。本人 11-07 去不了车旁边，远程也连不上车。这几局进小车记录要等 fangzhi 的 S01-D03-ws-ingest（zfz/backend 上已经接上了，等两套后端合，docs/impl/notes/需要确认的事-1102.md 第 19 条）；依赖的第一轮联调（S01-D04-e2e-1，fangzhi）还没有记录，这一轮自己从配对开始走了一遍
+kitbot,warning,BLOCKED,5,yifan,S01-D06-freshness,daily-scrum/Day05-yifan.md,面板判“状态未知”只看后端收没收到有效的心跳和状态，和是不是真车无关；真车 11-06 已经连过后端（docs/evidence/S01/D02/pi-bridge.log 第 11 节）
+kitbot,warning,BLOCKED,5,yifan,S01-D08-interface-defects,daily-scrum/Day05-yifan.md,电脑上用模拟的车测过了（SIMULATED）；车 11-06 重装以后，weihua 在真车上看过连接、安全协商、实时状态和设备事件（docs/evidence/S01/D02/pi-bridge.log 第 11 节），“按停止 → 车停下 → 回确认”还没在真车上测，车上 11-06 装的是 func-design@783c3d9（weihua），还没有 11-07 的放语音修改和 fangzhi 的停车零值重写，要再装一次（docs/impl/notes/需要确认的事-1102.md 第 2 条，weihua 或 zhengge）
+kitbot,info,PARTIAL_SUBMISSION,,weihua,,,2026-11-09 尚未见该成员日报，保留最近状态；不算每日缺交。
+kitbot,warning,BLOCKED,6,fangzhi,S01-D06-data-lifecycle,daily-scrum/Day06-fangzhi.md,需fangzhi在D06收口前核对导出、保留期限及删除失败重试的最终证据。
+kitbot,warning,BLOCKED,6,fangzhi,S01-D06-class-fangzhi,daily-scrum/Day06-fangzhi.md,待核对课程出席情况及课堂记录。
+kitbot,warning,BLOCKED,6,fangzhi,S01-D07-acceptance,daily-scrum/Day06-fangzhi.md,需fangzhi与相关同学在D07验收前准备真机及联调证据，再逐项记录验收结果。
+kitbot,warning,BLOCKED,6,fangzhi,S01-D08-record-defects,daily-scrum/Day06-fangzhi.md,需fangzhi在本项收口前结合回归及设备联调结果整理可检查的缺陷关闭证据。
+kitbot,warning,BLOCKED,6,fangzhi,S01-D09-evidence-index,daily-scrum/Day06-fangzhi.md,无；待fangzhi在D09整理证据及真实同学反馈。
+kitbot,warning,BLOCKED,6,fangzhi,S01-D10-sprint-review,daily-scrum/Day06-fangzhi.md,无；待Sprint评审时汇总功能、证据与未通过项。
+kitbot,info,PARTIAL_SUBMISSION,,zhengge,,,2026-11-09 尚未见该成员日报，保留最近状态；不算每日缺交。
+kitbot,info,PARTIAL_SUBMISSION,,yifan,,,2026-11-09 尚未见该成员日报，保留最近状态；不算每日缺交。
 utopia,warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
 utopia,error,INVALID_REPORT,2,A,,燃尽图/daily-scrum/Day02-A.md,A01: 提供证据时必须说明验证方式
 utopia,error,INVALID_REPORT,2,B,,燃尽图/daily-scrum/Day02-B.md,B01: 提供证据时必须说明验证方式

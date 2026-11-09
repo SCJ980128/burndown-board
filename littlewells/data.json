@@ -13,8 +13,8 @@
     "B": "王语涵"
   },
   "schema_version": 1,
-  "as_of": "2026-11-06",
-  "snapshot": "f1fa31de88bd7f619a7cc46246d26eceb9d00dd7",
+  "as_of": "2026-11-09",
+  "snapshot": "e40c6e9278de2cd89cf69ac233523bca735349b1",
   "issues": [
     {
       "severity": "warning",
@@ -24,6 +24,33 @@
       "task": "",
       "path": "",
       "message": "未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。"
+    },
+    {
+      "severity": "info",
+      "code": "REMAINING_INCREASE",
+      "day": 5,
+      "member": "A",
+      "task": "YIYOU-A-05",
+      "path": "Sprint/daily-scrum/Day05-A.md",
+      "message": "2h → 5h：新增5h兼容与异步状态验证；投入2h后任务剩余由2h升到5h，个人剩余12→15h、团队24→25h，触发预警。"
+    },
+    {
+      "severity": "warning",
+      "code": "REMAINING_OVER_2X",
+      "day": 5,
+      "member": "A",
+      "task": "YIYOU-A-05",
+      "path": "Sprint/daily-scrum/Day05-A.md",
+      "message": "当前剩余严格大于原始预估的 2 倍，需团队讨论预案。"
+    },
+    {
+      "severity": "warning",
+      "code": "BLOCKED",
+      "day": 5,
+      "member": "A",
+      "task": "YIYOU-A-05",
+      "path": "Sprint/daily-scrum/Day05-A.md",
+      "message": "音色目标模型绑定、异步状态和失败恢复；B 提供同版本整机协助复核。"
     }
   ],
   "series": [
@@ -80,41 +107,41 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "ideal_remaining": 24.0,
-      "actual_remaining": 24.0,
-      "actual_spent": 16.0,
-      "daily_spent": null,
-      "status": "no_submission",
+      "ideal_remaining": 20.0,
+      "actual_remaining": 25.0,
+      "actual_spent": 20.0,
+      "daily_spent": 4.0,
+      "status": "complete",
       "missing_members": []
     },
     {
       "day": 6,
       "date": "2026-11-07",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
+      "ideal_remaining": 20.0,
+      "actual_remaining": 25.0,
+      "actual_spent": 20.0,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
       "day": 7,
       "date": "2026-11-08",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
+      "ideal_remaining": 20.0,
+      "actual_remaining": 25.0,
+      "actual_spent": 20.0,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
       "day": 8,
       "date": "2026-11-09",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
+      "ideal_remaining": 20.0,
+      "actual_remaining": 25.0,
+      "actual_spent": 20.0,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
@@ -287,6 +314,32 @@
       "path": "Sprint/daily-scrum/Day04-B.md",
       "valid": true,
       "sha256": "429ff33c428e594bfc0dab62e2168b8b25b3da8bb506e04d6672910529db3c77",
+      "expected_task_count": 10,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 10,
+      "format_repairs": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "A",
+      "path": "Sprint/daily-scrum/Day05-A.md",
+      "valid": true,
+      "sha256": "f7916ee0d475dd80755cd69dd716f1db1a09679ac22414a0bb08ecde7c5d260f",
+      "expected_task_count": 10,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 10,
+      "format_repairs": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "B",
+      "path": "Sprint/daily-scrum/Day05-B.md",
+      "valid": true,
+      "sha256": "7b50823325ed6ad46f6edfb5ccc1f80e476755076b7067346c2f951da40a47d1",
       "expected_task_count": 10,
       "present": true,
       "parsed": true,
@@ -630,12 +683,43 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "entries": {},
-      "active_days": {
-        "A": 4,
-        "B": 4
+      "entries": {
+        "A": {
+          "day": 5,
+          "member": "A",
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "date": "2026-11-06",
+          "present": true,
+          "sha256": "f7916ee0d475dd80755cd69dd716f1db1a09679ac22414a0bb08ecde7c5d260f",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 10,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 5,
+          "member": "B",
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "date": "2026-11-06",
+          "present": true,
+          "sha256": "7b50823325ed6ad46f6edfb5ccc1f80e476755076b7067346c2f951da40a47d1",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 10,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 4,
+      "active_days": {
+        "A": 5,
+        "B": 5
+      },
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -643,10 +727,10 @@
       "date": "2026-11-07",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -654,10 +738,10 @@
       "date": "2026-11-08",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -665,10 +749,10 @@
       "date": "2026-11-09",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -676,10 +760,10 @@
       "date": "2026-11-10",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -687,10 +771,10 @@
       "date": "2026-11-11",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -698,10 +782,10 @@
       "date": "2026-11-12",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -709,10 +793,10 @@
       "date": "2026-11-13",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -720,10 +804,10 @@
       "date": "2026-11-14",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -731,10 +815,10 @@
       "date": "2026-11-15",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -742,25 +826,26 @@
       "date": "2026-11-16",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     }
   ],
   "submission_progress": {
     "required_days": 10,
-    "complete_days": 4,
+    "complete_days": 5,
     "complete_dates": [
       "2026-11-02",
       "2026-11-03",
       "2026-11-04",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-06"
     ],
     "member_days": {
-      "A": 4,
-      "B": 4
+      "A": 5,
+      "B": 5
     },
     "deadline": "2026-11-16",
     "deadline_reached": false,
@@ -1415,9 +1500,166 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "ideal_remaining": 24.0,
-      "remaining_hours": 24,
-      "reported_spent_hours": 16.0,
+      "ideal_remaining": 20.0,
+      "remaining_hours": 25,
+      "reported_spent_hours": 20.0,
+      "reported_daily_spent": 4.0,
+      "status": "verified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 20,
+      "eligible_tasks": 20,
+      "remaining_sources": [
+        {
+          "id": "YIYOU-A-01",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-02",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-03",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-04",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-05",
+          "hours": 5,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-06",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-07",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-08",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-09",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-A-10",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-01",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-02",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-03",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-04",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-05",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-06",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-07",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-08",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-09",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "YIYOU-B-10",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "ideal_remaining": 20.0,
+      "remaining_hours": 25,
+      "reported_spent_hours": 20.0,
       "reported_daily_spent": null,
       "status": "carried",
       "remaining_quality": "carried",
@@ -1450,192 +1692,500 @@
         {
           "id": "YIYOU-A-01",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-02",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-03",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-04",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-05",
-          "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "hours": 5,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-06",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-07",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-08",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-09",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-A-10",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-01",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-02",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-03",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-04",
           "hours": 0,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-05",
-          "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-06",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-07",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-08",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-09",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "YIYOU-B-10",
           "hours": 2,
-          "observed_day": 4,
-          "path": "Sprint/daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
           "carried": true
         }
       ],
       "excluded_members": []
     },
     {
-      "day": 6,
-      "date": "2026-11-07",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 20,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
       "day": 7,
       "date": "2026-11-08",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
+      "ideal_remaining": 20.0,
+      "remaining_hours": 25,
+      "reported_spent_hours": 20.0,
       "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "YIYOU-A-01",
+        "YIYOU-A-02",
+        "YIYOU-A-03",
+        "YIYOU-A-04",
+        "YIYOU-A-05",
+        "YIYOU-A-06",
+        "YIYOU-A-07",
+        "YIYOU-A-08",
+        "YIYOU-A-09",
+        "YIYOU-A-10",
+        "YIYOU-B-01",
+        "YIYOU-B-02",
+        "YIYOU-B-03",
+        "YIYOU-B-04",
+        "YIYOU-B-05",
+        "YIYOU-B-06",
+        "YIYOU-B-07",
+        "YIYOU-B-08",
+        "YIYOU-B-09",
+        "YIYOU-B-10"
+      ],
       "observed_remaining_tasks": 0,
       "eligible_tasks": 20,
-      "remaining_sources": [],
+      "remaining_sources": [
+        {
+          "id": "YIYOU-A-01",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-02",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-03",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-04",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-05",
+          "hours": 5,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-06",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-07",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-08",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-09",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-10",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-01",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-02",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-03",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-04",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-05",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-06",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-07",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-08",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-09",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-10",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        }
+      ],
       "excluded_members": []
     },
     {
       "day": 8,
       "date": "2026-11-09",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
+      "ideal_remaining": 20.0,
+      "remaining_hours": 25,
+      "reported_spent_hours": 20.0,
       "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "YIYOU-A-01",
+        "YIYOU-A-02",
+        "YIYOU-A-03",
+        "YIYOU-A-04",
+        "YIYOU-A-05",
+        "YIYOU-A-06",
+        "YIYOU-A-07",
+        "YIYOU-A-08",
+        "YIYOU-A-09",
+        "YIYOU-A-10",
+        "YIYOU-B-01",
+        "YIYOU-B-02",
+        "YIYOU-B-03",
+        "YIYOU-B-04",
+        "YIYOU-B-05",
+        "YIYOU-B-06",
+        "YIYOU-B-07",
+        "YIYOU-B-08",
+        "YIYOU-B-09",
+        "YIYOU-B-10"
+      ],
       "observed_remaining_tasks": 0,
       "eligible_tasks": 20,
-      "remaining_sources": [],
+      "remaining_sources": [
+        {
+          "id": "YIYOU-A-01",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-02",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-03",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-04",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-05",
+          "hours": 5,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-06",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-07",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-08",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-09",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-A-10",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-01",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-02",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-03",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-04",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-05",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-06",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-07",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-08",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-09",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "YIYOU-B-10",
+          "hours": 2,
+          "observed_day": 5,
+          "path": "Sprint/daily-scrum/Day05-B.md",
+          "carried": true
+        }
+      ],
       "excluded_members": []
     },
     {
@@ -1879,6 +2429,38 @@
       "excluded_tasks": [],
       "exclusion_reason": "",
       "parsed": true
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "A",
+      "path": "Sprint/daily-scrum/Day05-A.md",
+      "present": true,
+      "sha256": "f7916ee0d475dd80755cd69dd716f1db1a09679ac22414a0bb08ecde7c5d260f",
+      "valid": true,
+      "expected_task_count": 10,
+      "submitted_task_count": 10,
+      "remaining_task_count": 10,
+      "spent_task_count": 10,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "B",
+      "path": "Sprint/daily-scrum/Day05-B.md",
+      "present": true,
+      "sha256": "7b50823325ed6ad46f6edfb5ccc1f80e476755076b7067346c2f951da40a47d1",
+      "valid": true,
+      "expected_task_count": 10,
+      "submitted_task_count": 10,
+      "remaining_task_count": 10,
+      "spent_task_count": 10,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
     }
   ],
   "display_tasks": [
@@ -2027,6 +2609,6 @@
   "display_notes": [
     "此前仓库证据声明为进度推演材料；本次仅作提交情况检查，不能据此认定真实项目已完成。"
   ],
-  "fetched_at_utc": "2026-11-06T05:30:29.730065+00:00",
-  "generated_at_utc": "2026-11-06T05:32:43.232585+00:00"
+  "fetched_at_utc": "2026-11-09T04:03:30.732351+00:00",
+  "generated_at_utc": "2026-11-09T04:05:52.906445+00:00"
 }

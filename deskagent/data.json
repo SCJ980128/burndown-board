@@ -13,8 +13,8 @@
     "B": "陈智良"
   },
   "schema_version": 1,
-  "as_of": "2026-11-06",
-  "snapshot": "072fc0e7dff76745cf0e73ca72e59c8ee290b31d",
+  "as_of": "2026-11-09",
+  "snapshot": "0844927bf7cce5b959f399c1a76d69c62fc4d3ac",
   "issues": [
     {
       "severity": "warning",
@@ -80,41 +80,41 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "ideal_remaining": 48.6,
-      "actual_remaining": 53.0,
-      "actual_spent": 18.0,
-      "daily_spent": null,
-      "status": "no_submission",
+      "ideal_remaining": 40.5,
+      "actual_remaining": 45.0,
+      "actual_spent": 24.0,
+      "daily_spent": 6.0,
+      "status": "complete",
       "missing_members": []
     },
     {
       "day": 6,
       "date": "2026-11-07",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
+      "ideal_remaining": 40.5,
+      "actual_remaining": 45.0,
+      "actual_spent": 24.0,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
       "day": 7,
       "date": "2026-11-08",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
+      "ideal_remaining": 40.5,
+      "actual_remaining": 45.0,
+      "actual_spent": 24.0,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
       "day": 8,
       "date": "2026-11-09",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
+      "ideal_remaining": 40.5,
+      "actual_remaining": 45.0,
+      "actual_spent": 24.0,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
@@ -287,6 +287,32 @@
       "path": "daily-scrum/Day04-B.md",
       "valid": true,
       "sha256": "589096cd3291f2a4ea7e011d257258907a97b2ad7f6a903afb463286c116e9b7",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "A",
+      "path": "daily-scrum/Day05-A.md",
+      "valid": true,
+      "sha256": "aa9748bc1ea0841e00541c54c6e5679d72904d1e882efbda294cd55f17d25566",
+      "expected_task_count": 11,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 11,
+      "format_repairs": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "B",
+      "path": "daily-scrum/Day05-B.md",
+      "valid": true,
+      "sha256": "5a89a084fcdd926b36db300ecef2dec5d181a13095c1abca1f95f95177f1dc87",
       "expected_task_count": 11,
       "present": true,
       "parsed": true,
@@ -806,12 +832,43 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "entries": {},
-      "active_days": {
-        "A": 4,
-        "B": 4
+      "entries": {
+        "A": {
+          "day": 5,
+          "member": "A",
+          "path": "daily-scrum/Day05-A.md",
+          "date": "2026-11-06",
+          "present": true,
+          "sha256": "aa9748bc1ea0841e00541c54c6e5679d72904d1e882efbda294cd55f17d25566",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 5,
+          "member": "B",
+          "path": "daily-scrum/Day05-B.md",
+          "date": "2026-11-06",
+          "present": true,
+          "sha256": "5a89a084fcdd926b36db300ecef2dec5d181a13095c1abca1f95f95177f1dc87",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 11,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 4,
+      "active_days": {
+        "A": 5,
+        "B": 5
+      },
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -819,10 +876,10 @@
       "date": "2026-11-07",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -830,10 +887,10 @@
       "date": "2026-11-08",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -841,10 +898,10 @@
       "date": "2026-11-09",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -852,10 +909,10 @@
       "date": "2026-11-10",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -863,10 +920,10 @@
       "date": "2026-11-11",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -874,10 +931,10 @@
       "date": "2026-11-12",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -885,10 +942,10 @@
       "date": "2026-11-13",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -896,10 +953,10 @@
       "date": "2026-11-14",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -907,10 +964,10 @@
       "date": "2026-11-15",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -918,25 +975,26 @@
       "date": "2026-11-16",
       "entries": {},
       "active_days": {
-        "A": 4,
-        "B": 4
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 4,
+      "reference_day": 5,
       "rejected_members": []
     }
   ],
   "submission_progress": {
     "required_days": 10,
-    "complete_days": 4,
+    "complete_days": 5,
     "complete_dates": [
       "2026-11-02",
       "2026-11-03",
       "2026-11-04",
-      "2026-11-05"
+      "2026-11-05",
+      "2026-11-06"
     ],
     "member_days": {
-      "A": 4,
-      "B": 4
+      "A": 5,
+      "B": 5
     },
     "deadline": "2026-11-16",
     "deadline_reached": false,
@@ -1647,9 +1705,180 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "ideal_remaining": 48.6,
-      "remaining_hours": 53,
-      "reported_spent_hours": 18.0,
+      "ideal_remaining": 40.5,
+      "remaining_hours": 45,
+      "reported_spent_hours": 24.0,
+      "reported_daily_spent": 6.0,
+      "status": "verified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 22,
+      "eligible_tasks": 22,
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": false
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-07",
+      "ideal_remaining": 40.5,
+      "remaining_hours": 45,
+      "reported_spent_hours": 24.0,
       "reported_daily_spent": null,
       "status": "carried",
       "remaining_quality": "carried",
@@ -1684,206 +1913,546 @@
         {
           "id": "ENG-01-A",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-01-B",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-02-A",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-02-B",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-03-A",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-03-B",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-04-A",
-          "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-04-B",
-          "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-05-A",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-05-B",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-06-A",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-06-B",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-07-A",
           "hours": 3,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-07-B",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-08-A",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-08-B",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-09-A",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-09-B",
           "hours": 4,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "ENG-10-A",
           "hours": 3,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "ENG-10-B",
           "hours": 3,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "LEARNING-20261102-A",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-A.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "LEARNING-20261102-B",
           "hours": 0,
-          "observed_day": 4,
-          "path": "daily-scrum/Day04-B.md",
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
           "carried": true
         }
       ],
       "excluded_members": []
     },
     {
-      "day": 6,
-      "date": "2026-11-07",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 22,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
       "day": 7,
       "date": "2026-11-08",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
+      "ideal_remaining": 40.5,
+      "remaining_hours": 45,
+      "reported_spent_hours": 24.0,
       "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "ENG-01-A",
+        "ENG-01-B",
+        "ENG-02-A",
+        "ENG-02-B",
+        "ENG-03-A",
+        "ENG-03-B",
+        "ENG-04-A",
+        "ENG-04-B",
+        "ENG-05-A",
+        "ENG-05-B",
+        "ENG-06-A",
+        "ENG-06-B",
+        "ENG-07-A",
+        "ENG-07-B",
+        "ENG-08-A",
+        "ENG-08-B",
+        "ENG-09-A",
+        "ENG-09-B",
+        "ENG-10-A",
+        "ENG-10-B",
+        "LEARNING-20261102-A",
+        "LEARNING-20261102-B"
+      ],
       "observed_remaining_tasks": 0,
       "eligible_tasks": 22,
-      "remaining_sources": [],
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        }
+      ],
       "excluded_members": []
     },
     {
       "day": 8,
       "date": "2026-11-09",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
+      "ideal_remaining": 40.5,
+      "remaining_hours": 45,
+      "reported_spent_hours": 24.0,
       "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "ENG-01-A",
+        "ENG-01-B",
+        "ENG-02-A",
+        "ENG-02-B",
+        "ENG-03-A",
+        "ENG-03-B",
+        "ENG-04-A",
+        "ENG-04-B",
+        "ENG-05-A",
+        "ENG-05-B",
+        "ENG-06-A",
+        "ENG-06-B",
+        "ENG-07-A",
+        "ENG-07-B",
+        "ENG-08-A",
+        "ENG-08-B",
+        "ENG-09-A",
+        "ENG-09-B",
+        "ENG-10-A",
+        "ENG-10-B",
+        "LEARNING-20261102-A",
+        "LEARNING-20261102-B"
+      ],
       "observed_remaining_tasks": 0,
       "eligible_tasks": 22,
-      "remaining_sources": [],
+      "remaining_sources": [
+        {
+          "id": "ENG-01-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-01-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-02-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-02-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-03-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-03-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-04-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-04-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-05-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-05-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-06-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-06-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-07-A",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-07-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-08-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-08-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-09-A",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-09-B",
+          "hours": 4,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-10-A",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "ENG-10-B",
+          "hours": 3,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        },
+        {
+          "id": "LEARNING-20261102-A",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-A.md",
+          "carried": true
+        },
+        {
+          "id": "LEARNING-20261102-B",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "daily-scrum/Day05-B.md",
+          "carried": true
+        }
+      ],
       "excluded_members": []
     },
     {
@@ -2119,6 +2688,38 @@
       "path": "daily-scrum/Day04-B.md",
       "present": true,
       "sha256": "589096cd3291f2a4ea7e011d257258907a97b2ad7f6a903afb463286c116e9b7",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "A",
+      "path": "daily-scrum/Day05-A.md",
+      "present": true,
+      "sha256": "aa9748bc1ea0841e00541c54c6e5679d72904d1e882efbda294cd55f17d25566",
+      "valid": true,
+      "expected_task_count": 11,
+      "submitted_task_count": 11,
+      "remaining_task_count": 11,
+      "spent_task_count": 11,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "B",
+      "path": "daily-scrum/Day05-B.md",
+      "present": true,
+      "sha256": "5a89a084fcdd926b36db300ecef2dec5d181a13095c1abca1f95f95177f1dc87",
       "valid": true,
       "expected_task_count": 11,
       "submitted_task_count": 11,
@@ -2449,6 +3050,6 @@
   ],
   "display_plan_verified": true,
   "display_notes": [],
-  "fetched_at_utc": "2026-11-06T05:30:48.141605+00:00",
-  "generated_at_utc": "2026-11-06T05:32:43.232585+00:00"
+  "fetched_at_utc": "2026-11-09T04:03:50.766447+00:00",
+  "generated_at_utc": "2026-11-09T04:05:52.906445+00:00"
 }
