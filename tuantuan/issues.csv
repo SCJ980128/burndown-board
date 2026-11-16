@@ -1,6 +1,14 @@
 ﻿severity,code,day,member,task,path,message
-error,REPORT_SCHEDULE,2,B,,daily-scrum/Day02-B.md,day 与文件名不匹配
-error,REPORT_SCHEDULE,3,B,,daily-scrum/Day03-B.md,day 与文件名不匹配
-error,REPORT_SCHEDULE,4,B,,daily-scrum/Day04-B.md,day 与文件名不匹配
+warning,REPORT_DAY_TARGET,,,,daily-scrum,截至 2026-11-16，全员交齐 5 天日报，目标 10 天；交齐仅表示可识别的提交，不代表内容核验通过。
 error,INVALID_PLAN,,,,,新增任务须说明 scope_reason
 warning,PLOT_UNVERIFIED_PLAN,,,,,计划未通过严格核验，但任务编号、负责人、初估和纳入日可读；按原值绘图，基线待复核。
+warning,PLOT_EXCLUDED_VALUES,7,B,,daily-scrum/Day07-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,7,C,,daily-scrum/Day07-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_COMPATIBLE_READ,8,C,,daily-scrum/Day08-C.md,绘图使用兼容读取；严格核验结果另行保留。
+warning,PLOT_EXCLUDED_VALUES,8,C,,daily-scrum/Day08-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,9,B,,daily-scrum/Day09-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,9,C,,daily-scrum/Day09-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,10,B,,daily-scrum/Day10-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,10,C,,daily-scrum/Day10-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,11,B,,daily-scrum/Day11-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,12,B,,daily-scrum/Day12-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。

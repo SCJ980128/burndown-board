@@ -6,15 +6,15 @@
     "type": "gitee",
     "repo": "utopia416/modern_software_engineering",
     "branch": "master",
-    "transport": "https"
+    "transport": "auto"
   },
   "members": {
     "A": "Yan",
     "B": "Zhang"
   },
   "schema_version": 1,
-  "as_of": "2026-11-09",
-  "snapshot": "982cf4100c2460a05ae080de340b209813019a45",
+  "as_of": "2026-11-16",
+  "snapshot": "073e73fe93ba291fb090f95a43c97bfbc3e7fb5a",
   "issues": [
     {
       "severity": "warning",
@@ -41,6 +41,159 @@
       "member": "B",
       "task": "",
       "path": "燃尽图/daily-scrum/Day02-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 3,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day03-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 3,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day03-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 4,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day04-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 4,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day04-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 5,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day05-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 5,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day05-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 6,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day06-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 6,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day06-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "info",
+      "code": "SCOPE_ADDED",
+      "day": 7,
+      "member": "B",
+      "task": "B21",
+      "path": "",
+      "message": "新增 3h；Day07 用户追加硬件调试及软硬件联动工作量 3h，由 Zhang 完成；单独登记，不与 B12、B13 重复计时。；理想线基线保持不变。"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 7,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day07-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 7,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day07-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 8,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day08-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 8,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day08-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 9,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day09-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 9,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day09-B.md",
+      "message": "B01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 10,
+      "member": "A",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day10-A.md",
+      "message": "A01: 提供证据时必须说明验证方式"
+    },
+    {
+      "severity": "error",
+      "code": "INVALID_REPORT",
+      "day": 10,
+      "member": "B",
+      "task": "",
+      "path": "燃尽图/daily-scrum/Day10-B.md",
       "message": "B01: 提供证据时必须说明验证方式"
     }
   ],
@@ -81,37 +234,46 @@
     {
       "day": 3,
       "date": "2026-11-04",
-      "ideal_remaining": 105.6,
+      "ideal_remaining": 92.4,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
-      "status": "no_submission",
-      "missing_members": []
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
     },
     {
       "day": 4,
       "date": "2026-11-05",
-      "ideal_remaining": 105.6,
+      "ideal_remaining": 79.2,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
-      "status": "no_submission",
-      "missing_members": []
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
     },
     {
       "day": 5,
       "date": "2026-11-06",
-      "ideal_remaining": 105.6,
+      "ideal_remaining": 66.0,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
-      "status": "no_submission",
-      "missing_members": []
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
     },
     {
       "day": 6,
       "date": "2026-11-07",
-      "ideal_remaining": 105.6,
+      "ideal_remaining": 66.0,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
@@ -121,7 +283,7 @@
     {
       "day": 7,
       "date": "2026-11-08",
-      "ideal_remaining": 105.6,
+      "ideal_remaining": 66.0,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
@@ -131,7 +293,72 @@
     {
       "day": 8,
       "date": "2026-11-09",
-      "ideal_remaining": 105.6,
+      "ideal_remaining": 52.8,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "ideal_remaining": 39.6,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "ideal_remaining": 26.4,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "ideal_remaining": 13.2,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "ideal_remaining": 0.0,
+      "actual_remaining": null,
+      "actual_spent": null,
+      "daily_spent": null,
+      "status": "incomplete",
+      "missing_members": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "ideal_remaining": 0.0,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
@@ -139,73 +366,23 @@
       "missing_members": []
     },
     {
-      "day": 9,
-      "date": "2026-11-10",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
-      "daily_spent": null,
-      "status": "future",
-      "missing_members": []
-    },
-    {
-      "day": 10,
-      "date": "2026-11-11",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
-      "daily_spent": null,
-      "status": "future",
-      "missing_members": []
-    },
-    {
-      "day": 11,
-      "date": "2026-11-12",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
-      "daily_spent": null,
-      "status": "future",
-      "missing_members": []
-    },
-    {
-      "day": 12,
-      "date": "2026-11-13",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
-      "daily_spent": null,
-      "status": "future",
-      "missing_members": []
-    },
-    {
-      "day": 13,
-      "date": "2026-11-14",
-      "ideal_remaining": null,
-      "actual_remaining": null,
-      "actual_spent": null,
-      "daily_spent": null,
-      "status": "future",
-      "missing_members": []
-    },
-    {
       "day": 14,
       "date": "2026-11-15",
-      "ideal_remaining": null,
+      "ideal_remaining": 0.0,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     },
     {
       "day": 15,
       "date": "2026-11-16",
-      "ideal_remaining": null,
+      "ideal_remaining": 0.0,
       "actual_remaining": null,
       "actual_spent": null,
       "daily_spent": null,
-      "status": "future",
+      "status": "no_submission",
       "missing_members": []
     }
   ],
@@ -260,6 +437,214 @@
       "present": true,
       "parsed": true,
       "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day03-A.md",
+      "valid": false,
+      "sha256": "a8f75b5b8112dcecbcf16a6ef6d7e9024c61b7034830f7029c83f0e32b01a164",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day03-B.md",
+      "valid": false,
+      "sha256": "e59689d1d4267c9f53b27921d5d45bfc1816c42b14aa255b0c7d44dcfabed469",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day04-A.md",
+      "valid": false,
+      "sha256": "9ea4fdb35b324f57cf845641af7f2076f7ba6e38bb3ac75df7d49a23b50b89cf",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day04-B.md",
+      "valid": false,
+      "sha256": "f43c58ef89f44ffeaa48b1a4e371303538a4a72713c3fe0a41e2a3b3770ab9c6",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day05-A.md",
+      "valid": false,
+      "sha256": "63a93808f16371f704c8a816fefee74e2f8162c4b4285ccafba06b979981d8f3",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day05-B.md",
+      "valid": false,
+      "sha256": "e1d8820966dbc59351c219ff3b6bfc32b7079e18b83432da68817bcbfd9c9326",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-09",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day06-A.md",
+      "valid": false,
+      "sha256": "1aac3ea6fedc9ad5a2fd3caa2e371d3b67a344c0ded42b6e35eb29bc7aadc3a4",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 6,
+      "date": "2026-11-09",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day06-B.md",
+      "valid": false,
+      "sha256": "326d123cddda5cb0b74911794ab665b706092a09ff00e7e9308c9ce6c201afce",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-10",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day07-A.md",
+      "valid": false,
+      "sha256": "dec764e8f501f62a125262cac91a19650e4a256055b626a75ba9eec1b547f955",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 7,
+      "date": "2026-11-10",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day07-B.md",
+      "valid": false,
+      "sha256": "1110c06a9650eed37d73618284087a83e8975454a1d28ff5c7f8988ae88dfd8a",
+      "expected_task_count": 23,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 23,
+      "format_repairs": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-11",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day08-A.md",
+      "valid": false,
+      "sha256": "3d3d82d95433f72aad24a473855259d79265ba1908309aea3b00882ee8195e36",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 8,
+      "date": "2026-11-11",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day08-B.md",
+      "valid": false,
+      "sha256": "d6c764a1dda83882062e2f1bf2c3b3b667fa427dab2e404582d64ddb7b2383ac",
+      "expected_task_count": 23,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 23,
+      "format_repairs": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-12",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day09-A.md",
+      "valid": false,
+      "sha256": "c4d1b0fa84a6773b8bebdd27406204e898cd29d5de062198dd14742999e26e19",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-12",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day09-B.md",
+      "valid": false,
+      "sha256": "fe91e3ae724b3740511725f0c94ad317a3d1c78f3becde4857acb1a28bcc2530",
+      "expected_task_count": 23,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 23,
+      "format_repairs": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-13",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day10-A.md",
+      "valid": false,
+      "sha256": "c2cf80bff0a74e25b9c443b39e96a9ce1035ebc3261a7f9f3428b3c32365027b",
+      "expected_task_count": 22,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 22,
+      "format_repairs": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-13",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day10-B.md",
+      "valid": false,
+      "sha256": "66d589147f53ab7aad5d568aa171c7eedc64cf1dc720908b72bbfa3c5a2d49be",
+      "expected_task_count": 23,
+      "present": true,
+      "parsed": true,
+      "submitted_task_count": 23,
       "format_repairs": []
     }
   ],
@@ -607,14 +992,15 @@
     },
     {
       "id": "B14",
-      "day": 7,
+      "day": 8,
       "owner": "B",
       "name": "整理安装包初版和端到端演示脚本",
       "initial_hours": 3,
       "added_day": 0,
       "ai": "部分",
       "verification": "另一环境启动记录、演示脚本与备份视频初版",
-      "dependencies": "A13、B13"
+      "dependencies": "A13、B13",
+      "schedule_change_reason": "2026-11-10 用户安排顺延至 11 月 11 日（Day08）完成；初估与加入日不变。"
     },
     {
       "id": "A15",
@@ -747,6 +1133,18 @@
       "ai": "否",
       "verification": "匿名反馈汇总、剩余工作估计与复盘文档",
       "dependencies": "A20、B19"
+    },
+    {
+      "id": "B21",
+      "day": 7,
+      "owner": "B",
+      "name": "额外硬件调试与软硬件联动",
+      "initial_hours": 3,
+      "added_day": 7,
+      "scope_reason": "Day07 用户追加硬件调试及软硬件联动工作量 3h，由 Zhang 完成；单独登记，不与 B12、B13 重复计时。",
+      "ai": "部分",
+      "verification": "本轮真机联动调试的完成确认及实际形成的联调记录",
+      "dependencies": "既有硬件与电脑端入口；不新增 Agent 或工作入口"
     }
   ],
   "report_format": "compatible",
@@ -859,34 +1257,127 @@
     {
       "day": 3,
       "date": "2026-11-04",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 3,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "a8f75b5b8112dcecbcf16a6ef6d7e9024c61b7034830f7029c83f0e32b01a164",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 3,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "date": "2026-11-04",
+          "present": true,
+          "sha256": "e59689d1d4267c9f53b27921d5d45bfc1816c42b14aa255b0c7d44dcfabed469",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 3,
+        "B": 3
+      },
+      "reference_day": 3,
       "rejected_members": []
     },
     {
       "day": 4,
       "date": "2026-11-05",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 4,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "date": "2026-11-05",
+          "present": true,
+          "sha256": "9ea4fdb35b324f57cf845641af7f2076f7ba6e38bb3ac75df7d49a23b50b89cf",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 4,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "date": "2026-11-05",
+          "present": true,
+          "sha256": "f43c58ef89f44ffeaa48b1a4e371303538a4a72713c3fe0a41e2a3b3770ab9c6",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 4,
+        "B": 4
+      },
+      "reference_day": 4,
       "rejected_members": []
     },
     {
       "day": 5,
       "date": "2026-11-06",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 5,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "date": "2026-11-06",
+          "present": true,
+          "sha256": "63a93808f16371f704c8a816fefee74e2f8162c4b4285ccafba06b979981d8f3",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 5,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "date": "2026-11-06",
+          "present": true,
+          "sha256": "e1d8820966dbc59351c219ff3b6bfc32b7079e18b83432da68817bcbfd9c9326",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 5,
+        "B": 5
+      },
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -894,10 +1385,10 @@
       "date": "2026-11-07",
       "entries": {},
       "active_days": {
-        "A": 2,
-        "B": 2
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 2,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
@@ -905,65 +1396,220 @@
       "date": "2026-11-08",
       "entries": {},
       "active_days": {
-        "A": 2,
-        "B": 2
+        "A": 5,
+        "B": 5
       },
-      "reference_day": 2,
+      "reference_day": 5,
       "rejected_members": []
     },
     {
       "day": 8,
       "date": "2026-11-09",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 6,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "date": "2026-11-09",
+          "present": true,
+          "sha256": "1aac3ea6fedc9ad5a2fd3caa2e371d3b67a344c0ded42b6e35eb29bc7aadc3a4",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 6,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "date": "2026-11-09",
+          "present": true,
+          "sha256": "326d123cddda5cb0b74911794ab665b706092a09ff00e7e9308c9ce6c201afce",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 6,
+        "B": 6
+      },
+      "reference_day": 6,
       "rejected_members": []
     },
     {
       "day": 9,
       "date": "2026-11-10",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 7,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "date": "2026-11-10",
+          "present": true,
+          "sha256": "dec764e8f501f62a125262cac91a19650e4a256055b626a75ba9eec1b547f955",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 7,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "date": "2026-11-10",
+          "present": true,
+          "sha256": "1110c06a9650eed37d73618284087a83e8975454a1d28ff5c7f8988ae88dfd8a",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 23,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 7,
+        "B": 7
+      },
+      "reference_day": 7,
       "rejected_members": []
     },
     {
       "day": 10,
       "date": "2026-11-11",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 8,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "date": "2026-11-11",
+          "present": true,
+          "sha256": "3d3d82d95433f72aad24a473855259d79265ba1908309aea3b00882ee8195e36",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 8,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "date": "2026-11-11",
+          "present": true,
+          "sha256": "d6c764a1dda83882062e2f1bf2c3b3b667fa427dab2e404582d64ddb7b2383ac",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 23,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 8,
+        "B": 8
+      },
+      "reference_day": 8,
       "rejected_members": []
     },
     {
       "day": 11,
       "date": "2026-11-12",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 9,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "date": "2026-11-12",
+          "present": true,
+          "sha256": "c4d1b0fa84a6773b8bebdd27406204e898cd29d5de062198dd14742999e26e19",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 9,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "date": "2026-11-12",
+          "present": true,
+          "sha256": "fe91e3ae724b3740511725f0c94ad317a3d1c78f3becde4857acb1a28bcc2530",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 23,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 9,
+        "B": 9
+      },
+      "reference_day": 9,
       "rejected_members": []
     },
     {
       "day": 12,
       "date": "2026-11-13",
-      "entries": {},
-      "active_days": {
-        "A": 2,
-        "B": 2
+      "entries": {
+        "A": {
+          "day": 10,
+          "member": "A",
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "date": "2026-11-13",
+          "present": true,
+          "sha256": "c2cf80bff0a74e25b9c443b39e96a9ce1035ebc3261a7f9f3428b3c32365027b",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 22,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        },
+        "B": {
+          "day": 10,
+          "member": "B",
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "date": "2026-11-13",
+          "present": true,
+          "sha256": "66d589147f53ab7aad5d568aa171c7eedc64cf1dc720908b72bbfa3c5a2d49be",
+          "valid": false,
+          "expected_task_count": 0,
+          "submitted_task_count": 23,
+          "remaining_task_count": 0,
+          "spent_task_count": 0,
+          "excluded_tasks": [],
+          "exclusion_reason": ""
+        }
       },
-      "reference_day": 2,
+      "active_days": {
+        "A": 10,
+        "B": 10
+      },
+      "reference_day": 10,
       "rejected_members": []
     },
     {
@@ -971,10 +1617,10 @@
       "date": "2026-11-14",
       "entries": {},
       "active_days": {
-        "A": 2,
-        "B": 2
+        "A": 10,
+        "B": 10
       },
-      "reference_day": 2,
+      "reference_day": 10,
       "rejected_members": []
     },
     {
@@ -982,10 +1628,10 @@
       "date": "2026-11-15",
       "entries": {},
       "active_days": {
-        "A": 2,
-        "B": 2
+        "A": 10,
+        "B": 10
       },
-      "reference_day": 2,
+      "reference_day": 10,
       "rejected_members": []
     },
     {
@@ -993,29 +1639,37 @@
       "date": "2026-11-16",
       "entries": {},
       "active_days": {
-        "A": 2,
-        "B": 2
+        "A": 10,
+        "B": 10
       },
-      "reference_day": 2,
+      "reference_day": 10,
       "rejected_members": []
     }
   ],
   "submission_progress": {
     "required_days": 10,
-    "complete_days": 2,
+    "complete_days": 10,
     "complete_dates": [
       "2026-11-02",
-      "2026-11-03"
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11",
+      "2026-11-12",
+      "2026-11-13"
     ],
     "member_days": {
-      "A": 2,
-      "B": 2
+      "A": 10,
+      "B": 10
     },
     "deadline": "2026-11-16",
-    "deadline_reached": false,
-    "status": "in_progress"
+    "deadline_reached": true,
+    "status": "met"
   },
-  "plan_sha256": "23e0be77629a99512a2cc606f6cf18f6d50c7432802620ff76612c4b1b84d023",
+  "plan_sha256": "6135f1e93c729dfdd15b964869279f50b8d9892301cfdd6aceedf8b72b72655b",
   "display_series": [
     {
       "day": 0,
@@ -1686,369 +2340,324 @@
     {
       "day": 3,
       "date": "2026-11-04",
-      "ideal_remaining": 105.6,
-      "remaining_hours": 116.0,
-      "reported_spent_hours": 13.5,
-      "reported_daily_spent": null,
-      "status": "carried",
-      "remaining_quality": "carried",
+      "ideal_remaining": 92.4,
+      "remaining_hours": 104.0,
+      "reported_spent_hours": 25.5,
+      "reported_daily_spent": 12.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
       "spent_quality": "reported",
-      "carried_tasks": [
-        "A01",
-        "A02",
-        "A03",
-        "A04",
-        "A05",
-        "A06",
-        "A07",
-        "A08",
-        "A09",
-        "A10",
-        "A11",
-        "A12",
-        "A13",
-        "A14",
-        "A15",
-        "A16",
-        "A17",
-        "A18",
-        "A19",
-        "A20",
-        "B01",
-        "B02",
-        "B03",
-        "B04",
-        "B05",
-        "B06",
-        "B07",
-        "B08",
-        "B09",
-        "B10",
-        "B11",
-        "B12",
-        "B13",
-        "B14",
-        "B15",
-        "B16",
-        "B17",
-        "B18",
-        "B19",
-        "B20",
-        "COURSE-A-01",
-        "COURSE-A-02",
-        "COURSE-B-01",
-        "COURSE-B-02"
-      ],
-      "observed_remaining_tasks": 0,
+      "carried_tasks": [],
+      "observed_remaining_tasks": 44,
       "eligible_tasks": 44,
       "remaining_sources": [
         {
           "id": "A01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A02",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A03",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A04",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A07",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A08",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A09",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A10",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "A20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "B01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B02",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B03",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B04",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B07",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B08",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B09",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B10",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "B20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "COURSE-A-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "COURSE-A-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-A.md",
+          "carried": false
         },
         {
           "id": "COURSE-B-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         },
         {
           "id": "COURSE-B-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 3,
+          "path": "燃尽图/daily-scrum/Day03-B.md",
+          "carried": false
         }
       ],
       "excluded_members": []
@@ -2056,369 +2665,324 @@
     {
       "day": 4,
       "date": "2026-11-05",
-      "ideal_remaining": 105.6,
-      "remaining_hours": 116.0,
-      "reported_spent_hours": 13.5,
-      "reported_daily_spent": null,
-      "status": "carried",
-      "remaining_quality": "carried",
+      "ideal_remaining": 79.2,
+      "remaining_hours": 92.0,
+      "reported_spent_hours": 37.5,
+      "reported_daily_spent": 12.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
       "spent_quality": "reported",
-      "carried_tasks": [
-        "A01",
-        "A02",
-        "A03",
-        "A04",
-        "A05",
-        "A06",
-        "A07",
-        "A08",
-        "A09",
-        "A10",
-        "A11",
-        "A12",
-        "A13",
-        "A14",
-        "A15",
-        "A16",
-        "A17",
-        "A18",
-        "A19",
-        "A20",
-        "B01",
-        "B02",
-        "B03",
-        "B04",
-        "B05",
-        "B06",
-        "B07",
-        "B08",
-        "B09",
-        "B10",
-        "B11",
-        "B12",
-        "B13",
-        "B14",
-        "B15",
-        "B16",
-        "B17",
-        "B18",
-        "B19",
-        "B20",
-        "COURSE-A-01",
-        "COURSE-A-02",
-        "COURSE-B-01",
-        "COURSE-B-02"
-      ],
-      "observed_remaining_tasks": 0,
+      "carried_tasks": [],
+      "observed_remaining_tasks": 44,
       "eligible_tasks": 44,
       "remaining_sources": [
         {
           "id": "A01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A02",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A03",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A04",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A09",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A10",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "A20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "B01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B02",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B03",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B04",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B09",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B10",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "B20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "COURSE-A-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "COURSE-A-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-A.md",
+          "carried": false
         },
         {
           "id": "COURSE-B-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         },
         {
           "id": "COURSE-B-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 4,
+          "path": "燃尽图/daily-scrum/Day04-B.md",
+          "carried": false
         }
       ],
       "excluded_members": []
@@ -2426,369 +2990,324 @@
     {
       "day": 5,
       "date": "2026-11-06",
-      "ideal_remaining": 105.6,
-      "remaining_hours": 116.0,
-      "reported_spent_hours": 13.5,
-      "reported_daily_spent": null,
-      "status": "carried",
-      "remaining_quality": "carried",
+      "ideal_remaining": 66.0,
+      "remaining_hours": 80.0,
+      "reported_spent_hours": 49.5,
+      "reported_daily_spent": 12.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
       "spent_quality": "reported",
-      "carried_tasks": [
-        "A01",
-        "A02",
-        "A03",
-        "A04",
-        "A05",
-        "A06",
-        "A07",
-        "A08",
-        "A09",
-        "A10",
-        "A11",
-        "A12",
-        "A13",
-        "A14",
-        "A15",
-        "A16",
-        "A17",
-        "A18",
-        "A19",
-        "A20",
-        "B01",
-        "B02",
-        "B03",
-        "B04",
-        "B05",
-        "B06",
-        "B07",
-        "B08",
-        "B09",
-        "B10",
-        "B11",
-        "B12",
-        "B13",
-        "B14",
-        "B15",
-        "B16",
-        "B17",
-        "B18",
-        "B19",
-        "B20",
-        "COURSE-A-01",
-        "COURSE-A-02",
-        "COURSE-B-01",
-        "COURSE-B-02"
-      ],
-      "observed_remaining_tasks": 0,
+      "carried_tasks": [],
+      "observed_remaining_tasks": 44,
       "eligible_tasks": 44,
       "remaining_sources": [
         {
           "id": "A01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A02",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A03",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A04",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "A20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "B01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B02",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B03",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B04",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "B20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "COURSE-A-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "COURSE-A-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
+          "carried": false
         },
         {
           "id": "COURSE-B-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         },
         {
           "id": "COURSE-B-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
-          "carried": true
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
+          "carried": false
         }
       ],
       "excluded_members": []
@@ -2796,9 +3315,9 @@
     {
       "day": 6,
       "date": "2026-11-07",
-      "ideal_remaining": 105.6,
-      "remaining_hours": 116.0,
-      "reported_spent_hours": 13.5,
+      "ideal_remaining": 66.0,
+      "remaining_hours": 80.0,
+      "reported_spent_hours": 49.5,
       "reported_daily_spent": null,
       "status": "carried",
       "remaining_quality": "carried",
@@ -2855,309 +3374,309 @@
         {
           "id": "A01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A02",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A03",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A04",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "B01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B02",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B03",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B04",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "COURSE-A-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "COURSE-A-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "COURSE-B-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "COURSE-B-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         }
       ],
@@ -3166,9 +3685,9 @@
     {
       "day": 7,
       "date": "2026-11-08",
-      "ideal_remaining": 105.6,
-      "remaining_hours": 116.0,
-      "reported_spent_hours": 13.5,
+      "ideal_remaining": 66.0,
+      "remaining_hours": 80.0,
+      "reported_spent_hours": 49.5,
       "reported_daily_spent": null,
       "status": "carried",
       "remaining_quality": "carried",
@@ -3225,309 +3744,309 @@
         {
           "id": "A01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A02",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A03",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A04",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "A20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "B01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B02",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B03",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B04",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B11",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B12",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B13",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B14",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B15",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B16",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B17",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B18",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B19",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "B20",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "COURSE-A-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "COURSE-A-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-A.md",
           "carried": true
         },
         {
           "id": "COURSE-B-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         },
         {
           "id": "COURSE-B-02",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 5,
+          "path": "燃尽图/daily-scrum/Day05-B.md",
           "carried": true
         }
       ],
@@ -3536,9 +4055,1662 @@
     {
       "day": 8,
       "date": "2026-11-09",
-      "ideal_remaining": 105.6,
-      "remaining_hours": 116.0,
-      "reported_spent_hours": 13.5,
+      "ideal_remaining": 52.8,
+      "remaining_hours": 68.0,
+      "reported_spent_hours": 61.5,
+      "reported_daily_spent": 12.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 44,
+      "eligible_tasks": 44,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A12",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A13",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A14",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A15",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A16",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A17",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A18",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A19",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "A20",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B12",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B13",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B14",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B15",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B16",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B17",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B18",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B19",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "B20",
+          "hours": 3,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 6,
+          "path": "燃尽图/daily-scrum/Day06-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 9,
+      "date": "2026-11-10",
+      "ideal_remaining": 39.6,
+      "remaining_hours": 53.0,
+      "reported_spent_hours": 83.5,
+      "reported_daily_spent": 22.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 45,
+      "eligible_tasks": 45,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A12",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A13",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A14",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A15",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A16",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A17",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A18",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A19",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "A20",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B12",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B13",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B14",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B15",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B16",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B17",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B18",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B19",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B20",
+          "hours": 3,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 7,
+          "path": "燃尽图/daily-scrum/Day07-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 10,
+      "date": "2026-11-11",
+      "ideal_remaining": 26.4,
+      "remaining_hours": 38.0,
+      "reported_spent_hours": 98.5,
+      "reported_daily_spent": 15.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 45,
+      "eligible_tasks": 45,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A12",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A13",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A14",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A15",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A16",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A17",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A18",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A19",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "A20",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B12",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B13",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B14",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B15",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B16",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B17",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B18",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B19",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B20",
+          "hours": 3,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 8,
+          "path": "燃尽图/daily-scrum/Day08-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 11,
+      "date": "2026-11-12",
+      "ideal_remaining": 13.2,
+      "remaining_hours": 26.0,
+      "reported_spent_hours": 112.5,
+      "reported_daily_spent": 14.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 45,
+      "eligible_tasks": 45,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A12",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A13",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A14",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A15",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A16",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A17",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A18",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A19",
+          "hours": 3,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "A20",
+          "hours": 3,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B12",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B13",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B14",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B15",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B16",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B17",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B18",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B19",
+          "hours": 3,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B20",
+          "hours": 3,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 9,
+          "path": "燃尽图/daily-scrum/Day09-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 12,
+      "date": "2026-11-13",
+      "ideal_remaining": 0.0,
+      "remaining_hours": 14.0,
+      "reported_spent_hours": 124.5,
+      "reported_daily_spent": 12.0,
+      "status": "unverified",
+      "remaining_quality": "reported",
+      "spent_quality": "reported",
+      "carried_tasks": [],
+      "observed_remaining_tasks": 45,
+      "eligible_tasks": 45,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A12",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A13",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A14",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A15",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A16",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A17",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A18",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A19",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "A20",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B12",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B13",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B14",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B15",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B16",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B17",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B18",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B19",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B20",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": false
+        }
+      ],
+      "excluded_members": []
+    },
+    {
+      "day": 13,
+      "date": "2026-11-14",
+      "ideal_remaining": 0.0,
+      "remaining_hours": 14.0,
+      "reported_spent_hours": 124.5,
       "reported_daily_spent": null,
       "status": "carried",
       "remaining_quality": "carried",
@@ -3584,435 +5756,1087 @@
         "B18",
         "B19",
         "B20",
+        "B21",
         "COURSE-A-01",
         "COURSE-A-02",
         "COURSE-B-01",
         "COURSE-B-02"
       ],
       "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
+      "eligible_tasks": 45,
       "remaining_sources": [
         {
           "id": "A01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A02",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A03",
           "hours": 1.5,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A04",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A11",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A12",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A13",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A14",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A15",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A16",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A17",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A18",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A19",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "A20",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "B01",
           "hours": 1,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B02",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B03",
           "hours": 2,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B04",
           "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B05",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B06",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B07",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B08",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B09",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B10",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B11",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B12",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B13",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B14",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B15",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B16",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B17",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B18",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B19",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "B20",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "COURSE-A-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "COURSE-A-02",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-A.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
           "carried": true
         },
         {
           "id": "COURSE-B-01",
           "hours": 0,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         },
         {
           "id": "COURSE-B-02",
-          "hours": 3,
-          "observed_day": 2,
-          "path": "燃尽图/daily-scrum/Day02-B.md",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
           "carried": true
         }
       ],
       "excluded_members": []
     },
     {
-      "day": 9,
-      "date": "2026-11-10",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
-      "day": 10,
-      "date": "2026-11-11",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
-      "day": 11,
-      "date": "2026-11-12",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
-      "day": 12,
-      "date": "2026-11-13",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
-      "day": 13,
-      "date": "2026-11-14",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
-      "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
-      "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
-      "excluded_members": []
-    },
-    {
       "day": 14,
       "date": "2026-11-15",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
+      "ideal_remaining": 0.0,
+      "remaining_hours": 14.0,
+      "reported_spent_hours": 124.5,
       "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18",
+        "B19",
+        "B20",
+        "B21",
+        "COURSE-A-01",
+        "COURSE-A-02",
+        "COURSE-B-01",
+        "COURSE-B-02"
+      ],
       "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
+      "eligible_tasks": 45,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A12",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A13",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A14",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A15",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A16",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A17",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A18",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A19",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A20",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B12",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B13",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B14",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B15",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B16",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B17",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B18",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B19",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B20",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        }
+      ],
       "excluded_members": []
     },
     {
       "day": 15,
       "date": "2026-11-16",
-      "ideal_remaining": null,
-      "remaining_hours": null,
-      "reported_spent_hours": null,
+      "ideal_remaining": 0.0,
+      "remaining_hours": 14.0,
+      "reported_spent_hours": 124.5,
       "reported_daily_spent": null,
-      "status": "future",
-      "remaining_quality": "future",
-      "spent_quality": "future",
-      "carried_tasks": [],
+      "status": "carried",
+      "remaining_quality": "carried",
+      "spent_quality": "reported",
+      "carried_tasks": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A16",
+        "A17",
+        "A18",
+        "A19",
+        "A20",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18",
+        "B19",
+        "B20",
+        "B21",
+        "COURSE-A-01",
+        "COURSE-A-02",
+        "COURSE-B-01",
+        "COURSE-B-02"
+      ],
       "observed_remaining_tasks": 0,
-      "eligible_tasks": 44,
-      "remaining_sources": [],
+      "eligible_tasks": 45,
+      "remaining_sources": [
+        {
+          "id": "A01",
+          "hours": 1,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A02",
+          "hours": 1.5,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A03",
+          "hours": 1.5,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A04",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A05",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A06",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A07",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A08",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A09",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A10",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A11",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A12",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A13",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A14",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A15",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A16",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A17",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A18",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A19",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "A20",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "B01",
+          "hours": 1,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B02",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B03",
+          "hours": 2,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B04",
+          "hours": 3,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B05",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B06",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B07",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B08",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B09",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B10",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B11",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B12",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B13",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B14",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B15",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B16",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B17",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B18",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B19",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B20",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "B21",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-A-01",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-A-02",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-A.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-B-01",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        },
+        {
+          "id": "COURSE-B-02",
+          "hours": 0,
+          "observed_day": 10,
+          "path": "燃尽图/daily-scrum/Day10-B.md",
+          "carried": true
+        }
+      ],
       "excluded_members": []
     }
   ],
@@ -4077,6 +6901,262 @@
       "submitted_task_count": 22,
       "remaining_task_count": 22,
       "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day03-A.md",
+      "present": true,
+      "sha256": "a8f75b5b8112dcecbcf16a6ef6d7e9024c61b7034830f7029c83f0e32b01a164",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 3,
+      "date": "2026-11-04",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day03-B.md",
+      "present": true,
+      "sha256": "e59689d1d4267c9f53b27921d5d45bfc1816c42b14aa255b0c7d44dcfabed469",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day04-A.md",
+      "present": true,
+      "sha256": "9ea4fdb35b324f57cf845641af7f2076f7ba6e38bb3ac75df7d49a23b50b89cf",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 4,
+      "date": "2026-11-05",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day04-B.md",
+      "present": true,
+      "sha256": "f43c58ef89f44ffeaa48b1a4e371303538a4a72713c3fe0a41e2a3b3770ab9c6",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day05-A.md",
+      "present": true,
+      "sha256": "63a93808f16371f704c8a816fefee74e2f8162c4b4285ccafba06b979981d8f3",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 5,
+      "date": "2026-11-06",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day05-B.md",
+      "present": true,
+      "sha256": "e1d8820966dbc59351c219ff3b6bfc32b7079e18b83432da68817bcbfd9c9326",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 6,
+      "date": "2026-11-09",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day06-A.md",
+      "present": true,
+      "sha256": "1aac3ea6fedc9ad5a2fd3caa2e371d3b67a344c0ded42b6e35eb29bc7aadc3a4",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 6,
+      "date": "2026-11-09",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day06-B.md",
+      "present": true,
+      "sha256": "326d123cddda5cb0b74911794ab665b706092a09ff00e7e9308c9ce6c201afce",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 7,
+      "date": "2026-11-10",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day07-A.md",
+      "present": true,
+      "sha256": "dec764e8f501f62a125262cac91a19650e4a256055b626a75ba9eec1b547f955",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 7,
+      "date": "2026-11-10",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day07-B.md",
+      "present": true,
+      "sha256": "1110c06a9650eed37d73618284087a83e8975454a1d28ff5c7f8988ae88dfd8a",
+      "valid": false,
+      "expected_task_count": 23,
+      "submitted_task_count": 23,
+      "remaining_task_count": 23,
+      "spent_task_count": 23,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 8,
+      "date": "2026-11-11",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day08-A.md",
+      "present": true,
+      "sha256": "3d3d82d95433f72aad24a473855259d79265ba1908309aea3b00882ee8195e36",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 8,
+      "date": "2026-11-11",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day08-B.md",
+      "present": true,
+      "sha256": "d6c764a1dda83882062e2f1bf2c3b3b667fa427dab2e404582d64ddb7b2383ac",
+      "valid": false,
+      "expected_task_count": 23,
+      "submitted_task_count": 23,
+      "remaining_task_count": 23,
+      "spent_task_count": 23,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 9,
+      "date": "2026-11-12",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day09-A.md",
+      "present": true,
+      "sha256": "c4d1b0fa84a6773b8bebdd27406204e898cd29d5de062198dd14742999e26e19",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 9,
+      "date": "2026-11-12",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day09-B.md",
+      "present": true,
+      "sha256": "fe91e3ae724b3740511725f0c94ad317a3d1c78f3becde4857acb1a28bcc2530",
+      "valid": false,
+      "expected_task_count": 23,
+      "submitted_task_count": 23,
+      "remaining_task_count": 23,
+      "spent_task_count": 23,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 10,
+      "date": "2026-11-13",
+      "member": "A",
+      "path": "燃尽图/daily-scrum/Day10-A.md",
+      "present": true,
+      "sha256": "c2cf80bff0a74e25b9c443b39e96a9ce1035ebc3261a7f9f3428b3c32365027b",
+      "valid": false,
+      "expected_task_count": 22,
+      "submitted_task_count": 22,
+      "remaining_task_count": 22,
+      "spent_task_count": 22,
+      "excluded_tasks": [],
+      "exclusion_reason": "",
+      "parsed": true
+    },
+    {
+      "day": 10,
+      "date": "2026-11-13",
+      "member": "B",
+      "path": "燃尽图/daily-scrum/Day10-B.md",
+      "present": true,
+      "sha256": "66d589147f53ab7aad5d568aa171c7eedc64cf1dc720908b72bbfa3c5a2d49be",
+      "valid": false,
+      "expected_task_count": 23,
+      "submitted_task_count": 23,
+      "remaining_task_count": 23,
+      "spent_task_count": 23,
       "excluded_tasks": [],
       "exclusion_reason": "",
       "parsed": true
@@ -4426,14 +7506,15 @@
     },
     {
       "id": "B14",
-      "day": 7,
+      "day": 8,
       "owner": "B",
       "name": "整理安装包初版和端到端演示脚本",
       "initial_hours": 3,
       "added_day": 0,
       "ai": "部分",
       "verification": "另一环境启动记录、演示脚本与备份视频初版",
-      "dependencies": "A13、B13"
+      "dependencies": "A13、B13",
+      "schedule_change_reason": "2026-11-10 用户安排顺延至 11 月 11 日（Day08）完成；初估与加入日不变。"
     },
     {
       "id": "A15",
@@ -4566,10 +7647,22 @@
       "ai": "否",
       "verification": "匿名反馈汇总、剩余工作估计与复盘文档",
       "dependencies": "A20、B19"
+    },
+    {
+      "id": "B21",
+      "day": 7,
+      "owner": "B",
+      "name": "额外硬件调试与软硬件联动",
+      "initial_hours": 3,
+      "added_day": 7,
+      "scope_reason": "Day07 用户追加硬件调试及软硬件联动工作量 3h，由 Zhang 完成；单独登记，不与 B12、B13 重复计时。",
+      "ai": "部分",
+      "verification": "本轮真机联动调试的完成确认及实际形成的联调记录",
+      "dependencies": "既有硬件与电脑端入口；不新增 Agent 或工作入口"
     }
   ],
   "display_plan_verified": true,
   "display_notes": [],
-  "fetched_at_utc": "2026-11-09T04:04:15.584677+00:00",
-  "generated_at_utc": "2026-11-09T04:05:52.906445+00:00"
+  "fetched_at_utc": "2026-11-16T04:41:06.331575+00:00",
+  "generated_at_utc": "2026-11-16T04:41:51.381389+00:00"
 }

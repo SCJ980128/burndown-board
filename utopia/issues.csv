@@ -2,3 +2,20 @@
 warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
 error,INVALID_REPORT,2,A,,燃尽图/daily-scrum/Day02-A.md,A01: 提供证据时必须说明验证方式
 error,INVALID_REPORT,2,B,,燃尽图/daily-scrum/Day02-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,3,A,,燃尽图/daily-scrum/Day03-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,3,B,,燃尽图/daily-scrum/Day03-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,4,A,,燃尽图/daily-scrum/Day04-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,4,B,,燃尽图/daily-scrum/Day04-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,5,A,,燃尽图/daily-scrum/Day05-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,5,B,,燃尽图/daily-scrum/Day05-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,6,A,,燃尽图/daily-scrum/Day06-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,6,B,,燃尽图/daily-scrum/Day06-B.md,B01: 提供证据时必须说明验证方式
+info,SCOPE_ADDED,7,B,B21,,新增 3h；Day07 用户追加硬件调试及软硬件联动工作量 3h，由 Zhang 完成；单独登记，不与 B12、B13 重复计时。；理想线基线保持不变。
+error,INVALID_REPORT,7,A,,燃尽图/daily-scrum/Day07-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,7,B,,燃尽图/daily-scrum/Day07-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,8,A,,燃尽图/daily-scrum/Day08-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,8,B,,燃尽图/daily-scrum/Day08-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,9,A,,燃尽图/daily-scrum/Day09-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,9,B,,燃尽图/daily-scrum/Day09-B.md,B01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,10,A,,燃尽图/daily-scrum/Day10-A.md,A01: 提供证据时必须说明验证方式
+error,INVALID_REPORT,10,B,,燃尽图/daily-scrum/Day10-B.md,B01: 提供证据时必须说明验证方式

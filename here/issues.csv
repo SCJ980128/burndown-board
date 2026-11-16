@@ -1,9 +1,10 @@
 ﻿severity,code,day,member,task,path,message
 error,REPORT_SCHEDULE,2,C,,daily-scrum/Day02-C.md,day 与文件名不匹配
 warning,UNEXPECTED_FILE,,,,daily-scrum/_TEMPLATE.md,文件命名或成员代号不符合配置；不参与统计。
+warning,REPORT_DAY_TARGET,,,,daily-scrum,截至 2026-11-16，全员交齐 2 天日报，目标 10 天；交齐仅表示可识别的提交，不代表内容核验通过。
 warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
-info,SCOPE_ADDED,2,A,T31,,新增 3h；2026-11-03用户确认11/02和11/09两次课程各每人3h计入燃尽图。11/02已在T01/T02/T03计入，仅将11/09课程作为Day02新纳入的范围；实际执行日期为Day06。；理想线基线保持不变。
-info,SCOPE_ADDED,2,B,T32,,新增 3h；2026-11-03用户确认11/02和11/09两次课程各每人3h计入燃尽图。11/02已在T01/T02/T03计入，仅将11/09课程作为Day02新纳入的范围；实际执行日期为Day06。；理想线基线保持不变。
+info,SCOPE_ADDED,2,A,T31,,新增 3h；2026-11-03因11/09课程新增3小时范围，本任务added_day=2保持不变。2026-11-09按用户指定将课程记入T17；本任务接续原T17的Day07工作，保持原负责人及3小时初估，不重复计算课程或删除后续任务。；理想线基线保持不变。
+info,SCOPE_ADDED,2,B,T32,,新增 3h；2026-11-03因11/09课程新增3小时范围，本任务added_day=2保持不变。2026-11-09按用户指定将课程记入T16；本任务接续原T16的Day07工作，保持原负责人及3小时初估，不重复计算课程或删除后续任务。；理想线基线保持不变。
 error,INVALID_REPORT,2,A,,daily-scrum/Day02-A.md,T23: 提供证据时必须说明验证方式
 error,INVALID_REPORT,2,B,,daily-scrum/Day02-B.md,T22: 提供证据时必须说明验证方式
 info,PARTIAL_SUBMISSION,,C,,,2026-11-03 尚未见该成员日报，保留最近状态；不算每日缺交。
@@ -16,7 +17,35 @@ warning,BLOCKED,4,A,T08,daily-scrum/Day04-A.md,其他配件未到货，等待齐
 error,INVALID_REPORT,4,A,,daily-scrum/Day04-A.md,T23: 提供证据时必须说明验证方式
 error,INVALID_REPORT,4,B,,daily-scrum/Day04-B.md,T22: 提供证据时必须说明验证方式
 info,PARTIAL_SUBMISSION,,C,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
-info,PARTIAL_SUBMISSION,,A,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,BLOCKED,5,A,T05,daily-scrum/Day05-A.md,等待发票抬头后提交重新设计的前板订单。
+error,INVALID_REPORT,5,A,,daily-scrum/Day05-A.md,T23: 提供证据时必须说明验证方式
 warning,BLOCKED,5,B,T13,daily-scrum/Day05-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
 error,INVALID_REPORT,5,B,,daily-scrum/Day05-B.md,T22: 提供证据时必须说明验证方式
 info,PARTIAL_SUBMISSION,,C,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,SCOPE_ADDED,6,C,T33,,新增 3h；2026-11-03因11/09课程新增3小时范围，本任务added_day=2保持不变。2026-11-09按用户指定将课程记入T18；本任务接续原T18的Day07工作，保持原负责人及3小时初估，不重复计算课程或删除后续任务。；理想线基线保持不变。
+warning,BLOCKED,6,A,T05,daily-scrum/Day06-A.md,等待发票抬头后提交重新设计的前板订单。
+error,INVALID_REPORT,6,A,,daily-scrum/Day06-A.md,T23: 提供证据时必须说明验证方式
+warning,BLOCKED,6,B,T13,daily-scrum/Day06-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+error,INVALID_REPORT,6,B,,daily-scrum/Day06-B.md,T22: 提供证据时必须说明验证方式
+error,INVALID_REPORT,6,C,,daily-scrum/Day06-C.md,T24: 提供证据时必须说明验证方式
+warning,BLOCKED,7,A,T05,daily-scrum/Day07-A.md,等待发票抬头后提交重新设计的前板订单。
+error,INVALID_REPORT,7,A,,daily-scrum/Day07-A.md,T23: 提供证据时必须说明验证方式
+warning,FORMAT_MISSING_MARKER,7,B,,daily-scrum/Day07-B.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,BLOCKED,7,B,T13,daily-scrum/Day07-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+error,INVALID_REPORT,7,B,,daily-scrum/Day07-B.md,T22: status 无效
+info,PARTIAL_SUBMISSION,,C,,,2026-11-10 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,BLOCKED,8,A,T05,daily-scrum/Day08-A.md,等待发票抬头后提交重新设计的前板订单。
+error,INVALID_REPORT,8,A,,daily-scrum/Day08-A.md,T23: 提供证据时必须说明验证方式
+warning,BLOCKED,8,B,T13,daily-scrum/Day08-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+error,INVALID_REPORT,8,B,,daily-scrum/Day08-B.md,T22: status 无效
+info,PARTIAL_SUBMISSION,,C,,,2026-11-11 尚未见该成员日报，保留最近状态；不算每日缺交。
+error,INVALID_REPORT,9,A,,daily-scrum/Day09-A.md,T23: 提供证据时必须说明验证方式
+warning,BLOCKED,9,B,T13,daily-scrum/Day09-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+warning,BLOCKED,9,B,T19,daily-scrum/Day09-B.md,仍待同热点联调和断网、重复确认、跨日及五次到点回归。用户已下单新屏幕，到货后复测显示。
+error,INVALID_REPORT,9,B,,daily-scrum/Day09-B.md,T22: status 无效
+info,PARTIAL_SUBMISSION,,C,,,2026-11-12 尚未见该成员日报，保留最近状态；不算每日缺交。
+error,INVALID_REPORT,10,A,,daily-scrum/Day10-A.md,T23: 提供证据时必须说明验证方式
+warning,BLOCKED,10,B,T13,daily-scrum/Day10-B.md,电脑换到手机热点后获得新地址，ESP32 固件仍访问旧地址，导致录音未上传。待两端回到同一热点、更新设备里的电脑地址后复测。
+warning,BLOCKED,10,B,T19,daily-scrum/Day10-B.md,仍待同热点联调和断网、重复确认、跨日及五次到点回归。用户已下单新屏幕，到货后复测显示。
+error,INVALID_REPORT,10,B,,daily-scrum/Day10-B.md,T22: status 无效
+info,PARTIAL_SUBMISSION,,C,,,2026-11-13 尚未见该成员日报，保留最近状态；不算每日缺交。
