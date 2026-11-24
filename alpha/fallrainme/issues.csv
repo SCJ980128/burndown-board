@@ -1,0 +1,94 @@
+﻿severity,code,day,member,task,path,message
+warning,UNEXPECTED_FILE,,,,daily-scrum/Day01-T.md,文件命名或成员代号不符合配置；不参与统计。
+warning,UNEXPECTED_FILE,,,,daily-scrum/Day010-B.md,文件命名或成员代号不符合配置；不参与统计。
+error,REPORT_SCHEDULE,2,B,,daily-scrum/Day02-B.md,JSON 格式错误（第 3 行）：Expecting value
+error,REPORT_SCHEDULE,3,B,,daily-scrum/Day03-B.md,JSON 格式错误（第 3 行）：Expecting value
+error,REPORT_SCHEDULE,4,B,,daily-scrum/Day04-B.md,JSON 格式错误（第 3 行）：Expecting value
+error,REPORT_SCHEDULE,5,B,,daily-scrum/Day05-B.md,JSON 格式错误（第 3 行）：Expecting value
+error,REPORT_SCHEDULE,6,B,,daily-scrum/Day06-B.md,JSON 格式错误（第 3 行）：Expecting value
+error,REPORT_SCHEDULE,8,B,,daily-scrum/Day08-B.md,JSON 格式错误（第 3 行）：Expecting value
+error,REPORT_SCHEDULE,9,B,,daily-scrum/Day09-B.md,JSON 格式错误（第 3 行）：Expecting value
+warning,REPORT_DAY_TARGET,,,,daily-scrum,截至 2026-11-16，全员交齐 0 天日报，目标 10 天；交齐仅表示可识别的提交，不代表内容核验通过。
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+warning,TASK_TOO_LARGE,,,D03-B1,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,D06-B1,,原始预估超过 4h，按课程要求应继续拆分。
+warning,FORMAT_MISSING_MARKER,1,A,,daily-scrum/Day01-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,1,A,,daily-scrum/Day01-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,1,A,,daily-scrum/Day01-A.md,"必须完整列出当日所有责任任务；缺少 ['D02-A1', 'D03-A1', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-02 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,1,C,,daily-scrum/Day01-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,1,C,,daily-scrum/Day01-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,1,C,,daily-scrum/Day01-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,2,A,,daily-scrum/Day02-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,2,A,,daily-scrum/Day02-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,2,A,,daily-scrum/Day02-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A2', 'D03-A1', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-03 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,2,C,,daily-scrum/Day02-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,2,C,,daily-scrum/Day02-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,2,C,,daily-scrum/Day02-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,3,A,,daily-scrum/Day03-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,3,A,,daily-scrum/Day03-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,3,A,,daily-scrum/Day03-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-04 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,3,C,,daily-scrum/Day03-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,3,C,,daily-scrum/Day03-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,3,C,,daily-scrum/Day03-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,4,A,,daily-scrum/Day04-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,4,A,,daily-scrum/Day04-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,4,A,,daily-scrum/Day04-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-05 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,4,C,,daily-scrum/Day04-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,4,C,,daily-scrum/Day04-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,4,C,,daily-scrum/Day04-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,5,A,,daily-scrum/Day05-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,5,A,,daily-scrum/Day05-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,5,A,,daily-scrum/Day05-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-06 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,5,C,,daily-scrum/Day05-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,5,C,,daily-scrum/Day05-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,5,C,,daily-scrum/Day05-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,6,A,,daily-scrum/Day06-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,6,A,,daily-scrum/Day06-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,6,A,,daily-scrum/Day06-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D05-A1', 'D07-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-09 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,6,C,,daily-scrum/Day06-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,6,C,,daily-scrum/Day06-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,6,C,,daily-scrum/Day06-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,7,A,,daily-scrum/Day07-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,7,A,,daily-scrum/Day07-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,7,A,,daily-scrum/Day07-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D05-A1', 'D06-A1', 'D08-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-10 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,7,C,,daily-scrum/Day07-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,7,C,,daily-scrum/Day07-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,7,C,,daily-scrum/Day07-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,8,A,,daily-scrum/Day08-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,8,A,,daily-scrum/Day08-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,8,A,,daily-scrum/Day08-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D09-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-11 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,8,C,,daily-scrum/Day08-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,8,C,,daily-scrum/Day08-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,8,C,,daily-scrum/Day08-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,9,A,,daily-scrum/Day09-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,9,A,,daily-scrum/Day09-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,9,A,,daily-scrum/Day09-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D10-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-12 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,9,C,,daily-scrum/Day09-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,9,C,,daily-scrum/Day09-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,9,C,,daily-scrum/Day09-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,FORMAT_MISSING_MARKER,10,A,,daily-scrum/Day10-A.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,10,A,,daily-scrum/Day10-A.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,10,A,,daily-scrum/Day10-A.md,"必须完整列出当日所有责任任务；缺少 ['D01-A1', 'D01-A2', 'D02-A1', 'D03-A1', 'D04-A1', 'D05-A1', 'D06-A1', 'D07-A1', 'D08-A1', 'D09-A1']，多出 []"
+info,PARTIAL_SUBMISSION,,B,,,2026-11-13 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MISSING_MARKER,10,C,,daily-scrum/Day10-C.md,未写 scrum-report:v1 标记；按唯一日报数据兼容读取，原文件未修改。
+warning,FORMAT_BARE_JSON,10,C,,daily-scrum/Day10-C.md,日报使用裸 JSON；按整个 JSON 对象读取，未向原文件补写 Markdown。
+error,INVALID_REPORT,10,C,,daily-scrum/Day10-C.md,"必须完整列出当日所有责任任务；缺少 ['D01-C1', 'D02-C1', 'D03-C1', 'D04-C1', 'D05-C1', 'D06-C1', 'D07-C1', 'D08-C1', 'D09-C1', 'D10-C1']，多出 ['D01-A1']"
+warning,PLOT_EXCLUDED_VALUES,1,C,,daily-scrum/Day01-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,2,C,,daily-scrum/Day02-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,3,C,,daily-scrum/Day03-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,4,C,,daily-scrum/Day04-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,5,C,,daily-scrum/Day05-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,6,C,,daily-scrum/Day06-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,7,C,,daily-scrum/Day07-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,8,C,,daily-scrum/Day08-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,9,C,,daily-scrum/Day09-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+warning,PLOT_EXCLUDED_VALUES,10,C,,daily-scrum/Day10-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。

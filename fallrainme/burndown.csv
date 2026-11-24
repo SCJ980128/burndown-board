@@ -1,17 +1,1 @@
 ﻿day,date,ideal_remaining,actual_remaining,actual_spent,daily_spent,status,missing_members
-0,,101.0,101.0,0.0,0.0,baseline,
-1,2026-11-02,101.0,,,,incomplete,"A, B, C"
-2,2026-11-03,101.0,,,,incomplete,"A, B, C"
-3,2026-11-04,101.0,,,,incomplete,"A, B, C"
-4,2026-11-05,101.0,,,,incomplete,"A, B, C"
-5,2026-11-06,101.0,,,,incomplete,"A, B, C"
-6,2026-11-07,101.0,,,,no_submission,
-7,2026-11-08,101.0,,,,no_submission,
-8,2026-11-09,101.0,,,,incomplete,"A, B, C"
-9,2026-11-10,101.0,,,,incomplete,"A, B, C"
-10,2026-11-11,101.0,,,,incomplete,"A, B, C"
-11,2026-11-12,101.0,,,,incomplete,"A, B, C"
-12,2026-11-13,101.0,,,,incomplete,"A, B, C"
-13,2026-11-14,101.0,,,,no_submission,
-14,2026-11-15,101.0,,,,no_submission,
-15,2026-11-16,101.0,,,,no_submission,

@@ -1,0 +1,17 @@
+﻿day,date,ideal_remaining,remaining_hours,reported_spent_hours,reported_daily_spent,remaining_quality,spent_quality,status,observed_remaining_tasks,eligible_tasks,carried_tasks,excluded_members
+0,,90,90,0.0,0.0,baseline,baseline,baseline,0,30,,
+1,2026-11-02,81.0,81,9.0,9.0,reported,reported,verified,30,30,,
+2,2026-11-03,81.0,77,15.5,6.5,estimated,partial,unverified,22,32,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30",C
+3,2026-11-04,81.0,72,20.5,5.0,estimated,partial,unverified,22,32,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30",C
+4,2026-11-05,81.0,68.1,25.5,5.0,estimated,partial,unverified,22,32,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30",C
+5,2026-11-06,81.0,65.1,30.5,5.0,estimated,partial,unverified,22,32,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30",C
+6,2026-11-07,81.0,65.1,30.5,,carried,partial,carried,0,32,"T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32",
+7,2026-11-08,81.0,65.1,30.5,,carried,partial,carried,0,32,"T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32",
+8,2026-11-09,72.0,56.1,39.5,9.0,reported,partial,unverified,33,33,,
+9,2026-11-10,72.0,55.1,44.5,5.0,estimated,partial,unverified,22,33,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30, T33",C
+10,2026-11-11,72.0,53.1,47.5,3.0,estimated,partial,unverified,22,33,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30, T33",C
+11,2026-11-12,72.0,46,57.0,9.5,estimated,partial,unverified,22,33,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30, T33",C
+12,2026-11-13,72.0,40,64.0,7.0,estimated,partial,unverified,22,33,"T03, T06, T09, T12, T15, T18, T21, T24, T27, T30, T33",C
+13,2026-11-14,72.0,40,64.0,,carried,partial,carried,0,33,"T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33",
+14,2026-11-15,72.0,40,64.0,,carried,partial,carried,0,33,"T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33",
+15,2026-11-16,72.0,40,64.0,,carried,partial,carried,0,33,"T01, T02, T03, T04, T05, T06, T07, T08, T09, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33",

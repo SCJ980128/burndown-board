@@ -1,2 +1,4 @@
 ﻿severity,code,day,member,task,path,message
-warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+info,LEGACY_REPORTS_SKIPPED,,,,daily-scrum,目录中含 20 份早于本阶段起点（2026-11-23）的历史日报，已自动跳过不计入本阶段。
+error,INVALID_PLAN,,,,,仓库当前计划仍为上一阶段旧计划（sprint_id='deskagent-alpha-beta'），尚未检测到本阶段新计划（sprint-plan.md 或新版 sprint-plan.json）
+warning,PLOT_NO_BASELINE,,,,,无法建立绘图基线：仓库当前计划仍为上一阶段旧计划（sprint_id='deskagent-alpha-beta'），尚未检测到本阶段新计划（sprint-plan.md 或新版 sprint-plan.json）

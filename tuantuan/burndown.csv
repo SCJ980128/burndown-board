@@ -1,1 +1,16 @@
 ﻿day,date,ideal_remaining,actual_remaining,actual_spent,daily_spent,status,missing_members
+0,,148,148,0.0,0.0,baseline,
+1,2026-11-23,148.0,,,,incomplete,"A, B, D"
+2,2026-11-24,148.0,,,,incomplete,"A, C, D"
+3,2026-11-25,,,,,future,
+4,2026-11-26,,,,,future,
+5,2026-11-27,,,,,future,
+6,2026-11-28,,,,,future,
+7,2026-11-29,,,,,future,
+8,2026-11-30,,,,,future,
+9,2026-12-01,,,,,future,
+10,2026-12-02,,,,,future,
+11,2026-12-03,,,,,future,
+12,2026-12-04,,,,,future,
+13,2026-12-05,,,,,future,
+14,2026-12-06,,,,,future,

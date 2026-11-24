@@ -1,14 +1,23 @@
 ﻿severity,code,day,member,task,path,message
-warning,REPORT_DAY_TARGET,,,,daily-scrum,截至 2026-11-16，全员交齐 5 天日报，目标 10 天；交齐仅表示可识别的提交，不代表内容核验通过。
-error,INVALID_PLAN,,,,,新增任务须说明 scope_reason
-warning,PLOT_UNVERIFIED_PLAN,,,,,计划未通过严格核验，但任务编号、负责人、初估和纳入日可读；按原值绘图，基线待复核。
-warning,PLOT_EXCLUDED_VALUES,7,B,,daily-scrum/Day07-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,7,C,,daily-scrum/Day07-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_COMPATIBLE_READ,8,C,,daily-scrum/Day08-C.md,绘图使用兼容读取；严格核验结果另行保留。
-warning,PLOT_EXCLUDED_VALUES,8,C,,daily-scrum/Day08-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,9,B,,daily-scrum/Day09-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,9,C,,daily-scrum/Day09-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,10,B,,daily-scrum/Day10-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,10,C,,daily-scrum/Day10-C.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,11,B,,daily-scrum/Day11-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
-warning,PLOT_EXCLUDED_VALUES,12,B,,daily-scrum/Day12-B.md,部分条目或字段未计入图表，其他可读数据仍展示；详见绘图采纳明细。
+info,UNFILLED_TEMPLATE,1,A,,docs/sprint-02/report-templates/Day01-A.md,检测到尚未填写任务行的预建日报模板，暂不计入已提交日报。
+info,UNFILLED_TEMPLATE,1,B,,docs/sprint-02/report-templates/Day01-B.md,检测到尚未填写任务行的预建日报模板，暂不计入已提交日报。
+info,UNFILLED_TEMPLATE,1,D,,docs/sprint-02/report-templates/Day01-D.md,检测到尚未填写任务行的预建日报模板，暂不计入已提交日报。
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+warning,FORMAT_PLAN_MARKDOWN_TABLE,,,,sprint-plan.md,已从 Markdown 极简计划表直接建立 Sprint 任务基线。
+warning,TASK_TOO_LARGE,,,BETA-A01,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,BETA-B01,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,BETA-C01,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,BETA-D01,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,BETA-B06,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,BETA-C06,,原始预估超过 4h，按课程要求应继续拆分。
+warning,TASK_TOO_LARGE,,,BETA-D06,,原始预估超过 4h，按课程要求应继续拆分。
+info,PARTIAL_SUBMISSION,,A,,,2026-11-23 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,PARTIAL_SUBMISSION,,B,,,2026-11-23 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MARKDOWN_TABLE,1,C,,docs/sprint-02/report-templates/Day01-C.md,已从 Markdown 极简工时表格直接读取日报数据。
+warning,EXTERNAL_EVIDENCE_UNVERIFIED,1,C,BETA-C01,https://github.com/Jasmer529/TuyaOpen/commit/3db1bf4a,外部链接未自动请求，需人工检查可访问性与内容。
+info,PARTIAL_SUBMISSION,,D,,,2026-11-23 尚未见该成员日报，保留最近状态；不算每日缺交。
+info,PARTIAL_SUBMISSION,,A,,,2026-11-24 尚未见该成员日报，保留最近状态；不算每日缺交。
+warning,FORMAT_MARKDOWN_TABLE,2,B,,docs/sprint-02/report-templates/Day02-B.md,已从 Markdown 极简工时表格直接读取日报数据。
+warning,FORMAT_MARKDOWN_TABLE,2,C,,docs/sprint-02/report-templates/Day02-C.md,已从 Markdown 极简工时表格直接读取日报数据。
+error,INVALID_REPORT,2,C,,docs/sprint-02/report-templates/Day02-C.md,BETA-C01: 完成任务必须有证据及验证方式
+info,PARTIAL_SUBMISSION,,D,,,2026-11-24 尚未见该成员日报，保留最近状态；不算每日缺交。

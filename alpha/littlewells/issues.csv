@@ -1,0 +1,7 @@
+﻿severity,code,day,member,task,path,message
+warning,UNPINNED_PLAN,,,,,未锁定计划 SHA256，不能自动识别历史基线被修改；请审查后写入配置。
+info,REMAINING_INCREASE,5,A,YIYOU-A-05,Sprint/daily-scrum/Day05-A.md,2h → 5h：新增5h兼容与异步状态验证；投入2h后任务剩余由2h升到5h，个人剩余12→15h、团队24→25h，触发预警。
+warning,REMAINING_OVER_2X,5,A,YIYOU-A-05,Sprint/daily-scrum/Day05-A.md,当前剩余严格大于原始预估的 2 倍，需团队讨论预案。
+warning,BLOCKED,5,A,YIYOU-A-05,Sprint/daily-scrum/Day05-A.md,音色目标模型绑定、异步状态和失败恢复；B 提供同版本整机协助复核。
+warning,BLOCKED,6,A,YIYOU-A-05,Sprint/daily-scrum/Day06-A.md,音色目标模型绑定、异步状态和失败恢复；B 提供同版本整机协助复核。
+warning,BLOCKED,7,A,YIYOU-A-05,Sprint/daily-scrum/Day07-A.md,音色目标模型绑定、异步状态和失败恢复；B 提供同版本整机协助复核。
